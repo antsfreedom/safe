@@ -1,6 +1,97 @@
 @import "../../css/variables.scss";
 @import "../../css/mixins.scss";
 
+// write by rkx 
+
 .footer{
-	
+	padding-top: 30px;
+	height: 370px;
+	border-top: 5px solid $brand-yellow;
+	background-color: $brand-black ;
+	.footer_detail{
+		dl{
+			display: inline-block;
+			vertical-align: top;
+			padding-left: 30px;
+			box-sizing: border-box;
+			height: 168px;
+			border-left: 1px solid #6a6a6a;
+			dt{
+				margin-bottom: 20px;
+				color: #848484;
+				font-size: $font-size-large;
+				&.hot_t{
+					margin-bottom:0;
+				}
+			}
+			dd{
+				line-height: 27px;
+				color: #6a6a6a;
+				font-size: $font-size-base;
+				&.hot_d{
+					font-size: $font-size-large;
+				}
+				i.icon{
+					display: inline-block;
+					width: 33%;
+					font-size: 40px;
+					text-align: center;
+				}
+				span.text{
+					display: inline-block;
+					width: 33%;
+					text-align: center;
+				}
+			}
+			dd.hot_link{
+				padding-top: 16px;
+				i.ilink{
+					display: inline-block;
+					vertical-align: top;
+					font-size: 40px;
+	        margin-right: 14px;
+				}
+				span{
+					display: inline-block;
+					vertical-align: top;
+				}
+			}
+			&:first-child{
+				border: none;
+			}
+			&.about{
+				width:240px; 
+			}
+				&.help{
+				width:270px; 
+			}
+				&.wacth{
+				width:360px; 
+			}
+				&.hot{
+				width:300px; 
+			}
+		}
+	}
+	.footer_nav{
+		margin: 50px 0;
+    ul{
+			margin: 0 auto;
+      width: 460px;
+			li{
+				display: inline-block;
+				a{
+					padding: 0 16px;
+				}
+			}
+    }
+	}
+	.footer_address{
+		width: 653px;
+		margin: 0 auto;
+		text-align: center;
+		p{
+			line-height: 25px;
+		}
+	}
 }

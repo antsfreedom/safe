@@ -1,0 +1,54 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.safeStar{
+	padding-top: 25px;
+	height: 1000px;
+	background-color:$body-bg;
+	.safeStar_introduction{
+		background-color: $white;
+		dt{
+			padding: 18px;
+			box-sizing: border-box;
+			font-weight: $font-weight-bold;
+			border-bottom: 1px solid $body-bg;
+		}
+		.introduction_detail{
+			margin: 20px 0 0 30px;
+			padding-bottom: 37px;
+			font-size: $font-size-small;
+			.detail_pic{
+				margin-right: 30px;
+				width: 425px;
+				height: 285px;
+				img{
+					height: 100%;
+					width: 100%;
+				}
+			}
+			.detail_txt{
+				width: 422px;
+				h2{
+					padding: 20px 0;
+					box-sizing: border-box;
+					&.txt_culpro{
+						padding: 16px 0;
+					}
+				}
+				.txt_culture{
+					padding-right: 43px;
+					box-sizing: border-box;
+					width: 195px;
+					border-right: 1px solid #f9f9f9;
+				}
+				.txt_product{
+					margin-left: 33px;
+					width: 100px;
+				}
+			}
+			.detail_corporate{
+				width: 235px;
+			}
+		}
+	}
+}

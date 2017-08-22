@@ -3,6 +3,7 @@
 
 #header{
   background-color: $body-bg;
+  border-bottom: 2px solid $brand;
   .header_link{
   	padding: 14px 0;
 	  border-bottom: 1px solid $light;
@@ -15,9 +16,9 @@
 	  			display: inline-block;
 	  			vertical-align: top;
 	  			position: relative;
-	  			&::after{
+	  			&:after{
 	  				position: absolute;
-	  				top: 6px;
+	  				top: 3px;
 	  				right:0;
 	  				display: block;
 	  				height: 12px;
@@ -30,10 +31,94 @@
 	  				color: $gray-light;
 	  			}
 	  		}
+	  		li:last-child{
+	  			&:after{
+           display: none;
+	  			}
+	  		}
 	  	}
 	  }	
   }
   .header_seacher{
-
+  	padding:32px 0;
+		font-size: 16px;
+		.seacher_logo{
+			width: 202px;
+			height: 53px;
+			img{
+				height: 100%;
+				width: 100%;
+			}
+		}
+		.search_inp{
+			margin-left: 193px;
+			padding: 2px;
+			background:$brand;
+			span{
+				padding:16.5px;
+				font-weight: 600;
+				background-color: $gray-dark;
+				i{
+					margin-left: 7px;
+				}
+			}
+			input{
+				padding:15px;
+				margin-left: -5px;
+				width: 387px;
+				border: none;
+				outline: none;
+			}
+			.iconlef{
+				padding: 0 16px;
+				box-sizing: border-box;
+				font-size:23px;
+				color: white;
+			}
+		}
+		.search_icon{
+			pre{
+				display: inline-block;
+			  height: 53px;
+			  width: 53px;
+			  line-height: 27px;
+			  i{
+			  	margin-left: 13px;
+			  	font-size: 24px;
+			  }
+			}
+		}
+  }
+  .header_nav{
+  	ul{
+  		margin-left:-16px;
+  		li{
+  			display: inline-block;
+  			font-size: $font-size-large;
+  			position: relative;
+				&:after{
+  				position: absolute;
+  				top: 20px;
+  				right:-2px;
+  				display: block;
+  				height: 18px;
+  				content: '';
+  				border: 1px solid $light;
+  			}
+  			a{
+					display: inline-block;
+  				padding:16px 50px;
+	  			&:hover{
+	  				background-color: $brand;
+	  				color: white;
+	  			}
+  			}
+  		}
+			li:last-child{
+  			&:after{
+         display: none;
+  			}
+  		}
+  	}
   }
 }
