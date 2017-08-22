@@ -2,6 +2,7 @@
 @import "variables";
 @import "normalize";
 @import "mixins";
+@import "reset";
 
 ul{
 	margin: 0;
@@ -72,7 +73,6 @@ a{
     outline: none;
   }
 }
-
 .wrapper{
 	display: block;
   margin-left: auto;
