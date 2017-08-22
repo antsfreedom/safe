@@ -2,5 +2,38 @@
 @import "../../css/mixins.scss";
 
 #header{
-	
+  background-color: $body-bg;
+  .header_link{
+  	padding: 14px 0;
+	  border-bottom: 1px solid $light;
+	  font-size: $font-size-small;
+	  color: $gray-light;
+	  .link_register{
+	  	ul{
+	  		li{
+	  			position: relative;
+	  			display: inline-block;
+	  			vertical-align: top;
+	  			position: relative;
+	  			&::after{
+	  				position: absolute;
+	  				top: 6px;
+	  				right:0;
+	  				display: block;
+	  				height: 12px;
+	  				content: '';
+	  				border: 1px solid $gray-light;
+	  			}
+	  			a{
+	  				display: inline-block;
+	  				padding:0 20px;
+	  				color: $gray-light;
+	  			}
+	  		}
+	  	}
+	  }	
+  }
+  .header_seacher{
+
+  }
 }
