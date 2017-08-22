@@ -1,6 +1,6 @@
 //Colors
 $gray-base:              #585858;
-$gray-dark:              #333333;
+$gray-dark:              #efefef;
 $gray-light:             #b1b1b1;
 $gray-lighter:           #eeeeee;
 
@@ -31,7 +31,7 @@ $font-family-num:         Impact;
 $font-family-more:        "Hiragino Sans GB","SimSun";
 $font-family-base:        $font-family-sans-serif;
 
-$font-size-base:          18px;
+$font-size-base:          14px;
 $font-size-large:         ceil(($font-size-base * 1.1));// ~16px;
 $font-size-small:         ceil(($font-size-base * 0.85));// ~12px
 
