@@ -1,0 +1,133 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.total{
+	/*background: pink;*/
+	.heard{
+		line-height: 50px;
+		font-size: 14px;
+		a{
+			color: $gray-base;
+		}
+	}
+	.navbar{
+		width: 250px;
+		border: 1px solid $gray-light;
+		box-sizing: border-box;
+		text-align: center;
+		h3{
+			width: 250px;
+			position: relative;
+			left: -1px;
+			top: -1px;
+			background: $brand-yellow;
+			line-height: 45px;
+			color: $white;
+		}
+		ul{
+			padding: 10px 0;
+			li{
+				line-height: 50px;
+				font-size: 14px;
+				&.moveone{
+					text-indent: 14px;
+				}
+				a{
+
+				}
+			}
+		}
+	}
+
+	.contentbar{
+		width: 932px;
+		background: pink;
+		.owndata{
+			border: 1px solid $gray-light;
+			padding: 20px 30px;
+			.avata{
+				height: 110px;
+				width: 110px;
+				border-radius: 50%;
+				background-image: url(../../images/user_center01.png);
+				background-repeat: no-repeat;
+				background-position: center -20px;
+			}
+			.loginMessage{
+				width: 330px;
+				padding: 12px 0 0 35px;
+				font-size: 12px;
+				position: relative;
+				/*background: #000;*/
+				&:after{
+					dispalay:block;
+					content: "";
+					width: 1px;
+					height: calc(100% - 12px);
+					background: $gray-light;
+					position: absolute;
+					bottom: 0;
+					right: 0;
+				}
+				.name{
+					font-size: 16px;
+					font-weight: 700;
+					padding-bottom: 18px;
+				}
+				.integral{
+					padding-bottom: 30px;
+					p{
+						margin-right: 40px;
+						font-weight: 700;
+						span{
+							color: $brand-yellow;
+						}
+					}
+				}
+			}
+			
+			.info{
+				padding: 30px 0 0 50px;
+				font-size: 0;
+				/*background: #000;*/
+				.myProfile{
+					padding-bottom: 24px;
+					.title{
+						vertical-align: center;
+						margin-right: 30px;
+						font-size: 14px;
+					}
+					.progress{
+						display: inline-block;
+						vertical-align: center;
+						width: 160px;
+						height: 14px;
+						background: $gray-light;
+						&:before{
+							display: block;
+							height: 100%;
+							width: 30%;
+							background: green;
+							content: "30%";
+							text-align: center;
+							line-height: 14px;
+							font-size: 12px;
+							color: $white;
+						}
+					}
+				}
+
+				.btn{
+					border: none;
+					outline: none;
+					height: 30px;
+					width: 100px;
+					font-size: 14px;
+					/*margin-right: 10px;*/
+					color: $white;
+					background: green;
+				}
+			}
+		}
+	}
+}
