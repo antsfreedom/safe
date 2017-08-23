@@ -1,0 +1,35 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+body{
+	background:#fbfbfb;
+}
+
+.publicVideo{
+		margin-bottom:18px;
+	.publicHeader{
+		height: 52px;
+		line-height: 52px;
+		a{
+			font-size: 14px;
+		}
+	}
+	.content{
+		.introduction{
+			width:956px;
+			background:#fff;
+		}
+		.proTitle{
+			padding-top: 40px;
+			margin:auto 23px;
+			font-size: 24px;
+			text-align: center;
+			border-bottom:1px solid #ccc;
+			span{
+				display: block;
+				margin-top:20px;
+				padding-bottom:8px;
+				font-size: 14px;
+			}
+		}
+	}
+}
