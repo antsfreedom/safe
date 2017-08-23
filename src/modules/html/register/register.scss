@@ -1,7 +1,7 @@
 @import "../../css/variables.scss";
 @import "../../css/mixins.scss";
 
-.back{
+.register{
     font-family: "iconfont";
     background:#fbfbfb;
   .Login{
@@ -31,6 +31,16 @@
         img{
           margin-top:92px;
         }
+        .carefree{
+          font-size:24px;
+          margin-top:45px;
+          span{
+              margin-right:13px;
+          }
+          b{
+            color:#fe6700;
+          }
+        }
       }
       .debark-right{
         width:45%;
@@ -43,6 +53,7 @@
             color:#fe6700;
             font-size:16px;
             font-weight:900;
+            margin-bottom:60px;
           }
           .Title-right{
             b{
@@ -57,7 +68,7 @@
           width:355px;
           border:1px solid #ccc;
           background:#f1f3f6;
-          margin-top:60px;
+          margin-top:30px;
           input{
             line-height:47px;
             width:290px;
@@ -94,6 +105,12 @@
           }
           b{
             color:#2ea7e0;
+          }
+        }
+        .Protocol{
+          span{
+            margin-right:0px;
+            margin-left:5px;
           }
         }
         .Login-immediately{
