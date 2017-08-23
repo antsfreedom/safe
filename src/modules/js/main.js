@@ -4,7 +4,7 @@ var index = {
 	init: function (num) {
 		require(['jquery'],function($){
 			$(document).ready(function(){
-				var picWidth = $(".banner").width();
+				var picWidth = $(".bannerBox li img").width();
 				var length = $(".bannerBox li").length;
 				// alert(length)
 				// console.log(picWidth)
@@ -27,20 +27,28 @@ var index = {
 					if(i==-1){
 						i=length-1
 					}
-					$(".bannerBox").stop().animate({left:-i * picWidth + "px"},500)
+					$(".bannerBox").stop().animate({left:-i * picWidth + "px"},1000)
 				})
 				//定时器
-				var timer = setInterval(moveL,1500)
+				var timer = setInterval(moveL,2000)
 
 				$(".bannerBox").hover(function(){
 					clearInterval(timer)
 				},function(){
-					timer = setInterval(moveL,1500)
+					timer = setInterval(moveL,2000)
 				})
 
 			})
 		})
 	}
+
+	/*show:function(num){
+		require(['jquery'],function($){
+			$(document).ready(function(){
+				alert(1)
+			})
+		})
+	}*/
 }
 
 exports.index = index;
