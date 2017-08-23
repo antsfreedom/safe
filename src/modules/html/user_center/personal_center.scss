@@ -1,0 +1,245 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.total{
+	/*background: pink;*/
+	.heard{
+		line-height: 50px;
+		font-size: 14px;
+		a{
+			color: $gray-base;
+		}
+	}
+	.navbar{
+		width: 250px;
+		border: 1px solid $gray-light;
+		box-sizing: border-box;
+		text-align: center;
+		h3{
+			width: 250px;
+			position: relative;
+			left: -1px;
+			top: -1px;
+			background: $brand-yellow;
+			line-height: 45px;
+			color: $white;
+		}
+		ul{
+			padding: 10px 0;
+			li{
+				line-height: 50px;
+				font-size: 14px;
+				&.moveone{
+					text-indent: 14px;
+				}
+				a{
+
+				}
+			}
+		}
+	}
+
+	.contentbar{
+		width: 932px;
+		// background: pink;
+		.owndata{
+			border: 1px solid $gray-light;
+			padding: 20px 30px;
+			.avata{
+				height: 110px;
+				width: 110px;
+				border-radius: 50%;
+				background-image: url(../../images/user_center01.png);
+				background-repeat: no-repeat;
+				background-position: center -20px;
+			}
+			.loginMessage{
+				width: 330px;
+				padding: 12px 0 0 35px;
+				font-size: 12px;
+				position: relative;
+				/*background: #000;*/
+				&:after{
+					dispalay:block;
+					content: "";
+					width: 1px;
+					height: calc(100% - 12px);
+					background: $gray-light;
+					position: absolute;
+					bottom: 0;
+					right: 0;
+				}
+				.name{
+					font-size: 16px;
+					font-weight: 700;
+					padding-bottom: 18px;
+				}
+				.integral{
+					padding-bottom: 30px;
+					p{
+						margin-right: 40px;
+						font-weight: 700;
+						span{
+							color: $brand-yellow;
+						}
+					}
+				}
+			}
+			
+			.info{
+				padding: 30px 0 0 50px;
+				font-size: 0;
+				/*background: #000;*/
+				.myProfile{
+					padding-bottom: 24px;
+					.title{
+						vertical-align: center;
+						margin-right: 30px;
+						font-size: 14px;
+					}
+					.progress{
+						display: inline-block;
+						vertical-align: center;
+						width: 160px;
+						height: 14px;
+						background: $gray-light;
+						&:before{
+							display: block;
+							height: 100%;
+							width: 30%;
+							background: green;
+							content: "30%";
+							text-align: center;
+							line-height: 14px;
+							font-size: 12px;
+							color: $white;
+						}
+					}
+				}
+
+				button{
+					border: none;
+					outline: none;
+					height: 30px;
+					width: 100px;
+					font-size: 14px;
+					// margin-right: 10px;
+					color: $white;
+					background-color: #5da9c0;
+					&:nth-child(2){
+						background: #89ba2a;
+						margin-right: 20px;
+					}
+				}
+				
+			}
+		}
+
+		.myQuestion{
+			border: 1px solid $gray-light;
+			margin: 20px 0;
+			padding: 0 20px;
+			.questionHead{
+				border-bottom: 1px solid $gray-light;
+				line-height: 50px;
+				font-weight: 700;
+				._right{
+					a{
+						font-size: 14px;
+						font-weight: 700;
+						color: black;
+						&:first-child{
+							margin-right: 46px;
+							position: relative;
+							&:after{
+								display: block;
+								content: "";
+								width: 2px;
+								height: 100%;
+								background: black;
+								position: absolute;
+								right: -22px;
+								top: 0;
+							}
+						}
+					}
+				}
+			}
+			.details{
+				.detail{
+					padding: 20px 0 20px 20px;
+					border-bottom: 1px solid $gray-light;
+					&:last-child{
+						border: none;
+					}
+					.ask{
+						position: relative;
+						font-size: 16px;
+						font-weight: 700;
+						&:before{
+							position: absolute;
+							left: -20px;
+							top: 0;
+							display: block;
+							content: "";
+							height: 100%;
+							width: 2px;
+							background: #5da9c0;
+						}
+					}
+					.answer{
+						font-size: 14px;
+						color: #989898;
+						line-height: 50px;
+						white-space: nowrap;
+						text-overflow: ellipsis;
+						overflow: hidden;
+					}
+					.popandtime{
+						font-size: 12px;
+						color: #a1a1a1;
+						span{
+							color: $brand-yellow;
+						}
+					}
+				}
+			}
+		}
+
+		.database_submission{
+			margin-bottom: 20px;
+			font-size: 0;
+			.samestyle{
+				width: 455px;
+				padding: 0 20px;
+				box-sizing: border-box;
+				border: 1px solid $gray-light;
+				h4{
+					font-size: 16px;
+					line-height: 50px;
+					border-bottom: 1px solid $gray-light;
+					font-weight: 700;
+				}
+				ul{
+					padding: 17px 0 17px 17px;
+					li{
+						position: relative;
+						font-size: 14px;
+						font-weight: 700;
+						line-height: 30px;
+						&:before{
+							display: block;
+							content: "";
+							height: 4px;
+							width: 4px;
+							background: #5da9c0;
+							position: absolute;
+							left: -17px;
+							top: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
