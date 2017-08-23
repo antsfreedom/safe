@@ -37,7 +37,6 @@ var index = {
 				},function(){
 					timer = setInterval(moveL,2000)
 				})
-
 			})
 		})
 	}
@@ -66,6 +65,9 @@ var tool = {
 		})
 	}
 }
+
+
+
 
 exports.index = index;
 exports.tool = tool;
