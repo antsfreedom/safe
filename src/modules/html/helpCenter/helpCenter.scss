@@ -1,0 +1,71 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.helpCenter{
+	background-color: $body-bg;
+	.helpContent{
+		.title{
+			ul{
+				overflow: hidden;
+				li{
+					float: left;
+					line-height: 51px;
+					font-size: 12px;
+					color: #c9c9c9;
+					i{
+						font-size: 7px;
+					}
+				}
+			}
+		}
+		.content{
+			display: flex;
+			.about{
+				flex:0 0 250px;
+				margin-right: 18px;
+				li{
+					line-height: 50px;
+					background-color: $brand;
+					&:hover a i{
+						transform:rotate(90deg);
+					}
+					a{
+						display: block;
+						color: #fff;
+						padding: 0 20px;
+					}
+					.small{
+						display: none;
+						li{
+							text-indent: 20px;
+						}
+						li:hover{
+							color: $brand;
+							background-color: #fff;
+						}
+					}
+					&:hover .small{
+						display: block;
+					}
+				}
+			}
+			.present{
+				flex:1;
+				padding: 0 15px 0 20px;
+				background-color: #fff;
+				p{
+					line-height: 55px;
+					color:$brand;
+					border-bottom: 1px solid #eee;
+				}
+				.details{
+					padding: 40px 20px 40px 25px;
+					line-height: 30px;
+					ul{
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+}
