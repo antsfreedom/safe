@@ -41,7 +41,7 @@
 
 	.contentbar{
 		width: 932px;
-		background: pink;
+		// background: pink;
 		.owndata{
 			border: 1px solid $gray-light;
 			padding: 20px 30px;
@@ -117,15 +117,127 @@
 					}
 				}
 
-				.btn{
+				button{
 					border: none;
 					outline: none;
 					height: 30px;
 					width: 100px;
 					font-size: 14px;
-					/*margin-right: 10px;*/
+					// margin-right: 10px;
 					color: $white;
-					background: green;
+					background-color: #5da9c0;
+					&:nth-child(2){
+						background: #89ba2a;
+						margin-right: 20px;
+					}
+				}
+				
+			}
+		}
+
+		.myQuestion{
+			border: 1px solid $gray-light;
+			margin: 20px 0;
+			padding: 0 20px;
+			.questionHead{
+				border-bottom: 1px solid $gray-light;
+				line-height: 50px;
+				font-weight: 700;
+				._right{
+					a{
+						font-size: 14px;
+						font-weight: 700;
+						color: black;
+						&:first-child{
+							margin-right: 46px;
+							position: relative;
+							&:after{
+								display: block;
+								content: "";
+								width: 2px;
+								height: 100%;
+								background: black;
+								position: absolute;
+								right: -22px;
+								top: 0;
+							}
+						}
+					}
+				}
+			}
+			.details{
+				.detail{
+					padding: 20px 0 20px 20px;
+					border-bottom: 1px solid $gray-light;
+					&:last-child{
+						border: none;
+					}
+					.ask{
+						position: relative;
+						font-size: 16px;
+						font-weight: 700;
+						&:before{
+							position: absolute;
+							left: -20px;
+							top: 0;
+							display: block;
+							content: "";
+							height: 100%;
+							width: 2px;
+							background: #5da9c0;
+						}
+					}
+					.answer{
+						font-size: 14px;
+						color: #989898;
+						line-height: 50px;
+						white-space: nowrap;
+						text-overflow: ellipsis;
+						overflow: hidden;
+					}
+					.popandtime{
+						font-size: 12px;
+						color: #a1a1a1;
+						span{
+							color: $brand-yellow;
+						}
+					}
+				}
+			}
+		}
+
+		.database_submission{
+			margin-bottom: 20px;
+			font-size: 0;
+			.samestyle{
+				width: 455px;
+				padding: 0 20px;
+				box-sizing: border-box;
+				border: 1px solid $gray-light;
+				h4{
+					font-size: 16px;
+					line-height: 50px;
+					border-bottom: 1px solid $gray-light;
+					font-weight: 700;
+				}
+				ul{
+					padding: 17px 0 17px 17px;
+					li{
+						position: relative;
+						font-size: 14px;
+						font-weight: 700;
+						line-height: 30px;
+						&:before{
+							display: block;
+							content: "";
+							height: 4px;
+							width: 4px;
+							background: #5da9c0;
+							position: absolute;
+							left: -17px;
+							top: 15px;
+						}
+					}
 				}
 			}
 		}
