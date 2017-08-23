@@ -1,0 +1,46 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.back{
+    background:#fbfbfb;
+  .Login{
+    width:1200px;
+    margin:0 auto;
+    .logo{
+      img{
+        border-right:1px solid #cccccc;
+        padding-right:20px;
+        vertical-align:middle;
+      }
+      p{
+        display:inline-block;
+        padding-left:20px;
+      }
+    }
+    .debark{
+      width:100%;
+      background-color:#fff;
+      box-shadow:0px 0px 20px #e7e7e7;
+      margin-top:27px;
+      overflow: hidden;
+      padding-bottom:200px;
+      .dun{
+        width:50%;
+        text-align:center;
+        img{
+          margin-top:92px;
+        }
+      }
+      .debark-right{
+        width:50%;
+        margin-top:92px;
+        .Title{
+          margin-right:37px;
+          .Title-left{
+            color:#fe6700;
+          }
+        }
+      }
+    }
+  }
+}
