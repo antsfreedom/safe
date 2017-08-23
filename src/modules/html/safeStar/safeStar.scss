@@ -2,8 +2,13 @@
 @import "../../css/mixins.scss";
 
 .safeStar{
-	padding-top: 25px;
 	background-color:$body-bg;
+	.safeStar_list{
+		padding: 16px 0;
+		span{
+			margin: 0 10px;
+		}
+	}
 	.safeStar_introduction{
 		background-color: $white;
 		dt{

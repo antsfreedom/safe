@@ -2,7 +2,7 @@
 @import "../../css/mixins.scss";
 
 .starPast{
-		background-color: $body-bg;
+	background-color: $body-bg;
 	.starPast_list{
 		padding: 16px 0;
 		span{
@@ -52,12 +52,14 @@
 				padding-left: 20px;
 				height: 50px;
 				line-height: 50px;
+				font-weight: 700;
 				border-bottom: 1px solid #eeeeee;
 			}
 			ul{
 				margin-left: 20px;
 				line-height: 32px;
 				li{
+					margin-left: 20px;
 					list-style: square;
 				}
 			}
