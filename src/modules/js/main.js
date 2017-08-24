@@ -50,5 +50,17 @@ var index = {
 		})
 	}*/
 }
+ 
+var user_center = {
+	init: function (num) {
+		require(['jquery'],function($){
+			$(document).ready(function(){
+				
+				
+			})
+		})
+	}
+} 
 
 exports.index = index;
+exports.user_center = user_center;
