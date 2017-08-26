@@ -2,14 +2,14 @@
 
 <div class="index">
 	<div class="banner">
-		<ul class="bannerBox clearfix">
-			<li><img src="images/banner.png" alt=""></li>
+		<ul class="bannerBox">
+			<li><img src="images/banner1.png" alt=""></li>
+			<li><img src="images/banner4.png" alt=""></li>
 			<li><img src="images/banner2.png" alt=""></li>
-			<li><img src="images/banner.png" alt=""></li>
-			<li><img src="images/banner2.png" alt=""></li>
+			<li><img src="images/banner3.png" alt=""></li>
 		</ul>
-		<div class="Larrow">&lt;</div>
-		<div class="Rarrow">&gt;</div>
+		<div class="Larrow iconfont icon-mjiantou-copy"></div>
+		<div class="Rarrow iconfont icon-left-angle"></div>
 	</div>
 
 	<div class="nav-bar clearfix wrapper">
@@ -18,7 +18,7 @@
 	</div>
 
 	<div class="hotSearch wrapper clearfix">
-		<div class="hotNews">
+		<div class="hotNews pull-left">
 			<div class="pic">
 				<img src="images/index-person.png" alt="">
 			</div>
@@ -36,7 +36,11 @@
 				</ul>
 			</div>
 		</div>
+
 		<div class="writingArea">
+
+
+		<div class="writingArea pull-right">
 			<p>投稿专区</p>
 			<ul>
 				<li>
@@ -61,7 +65,7 @@
 					</div>
 				</li>
 			</ul>
-			<div class="myWriting">我要投稿</div>
+			<a class="myWriting" href="javascript:;">我要投稿</a>
 		</div>
 	</div>
 
@@ -71,7 +75,7 @@
 	</div>
 
 	<div class="askings wrapper clearfix">
-		<div class="askingL">
+		<div class="askingL pull-left">
 			<p>找最专业的人</p>
 			<p>找最专业的回答</p>
 			<ul class="clearfix">
@@ -89,7 +93,7 @@
 				<a href="javascript:;">立即提问</a>					
 			</div>
 		</div>
-		<div class="askingR">
+		<div class="askingR pull-right">
 			<h2>每日一题</h2>
 			<div class="personal">
 				<div class="pic"><img src="images/index-avatar.png" alt=""></div>
@@ -155,7 +159,7 @@
 		<a href="javascript:;">更多...</a>
 	</div>
 
-	<div class="learning wrapper">
+	<div class="learning wrapper" id="learn">
 		<ul class="clearfix">
 			<li>
 				<img src="images/index-project1.png" alt="">
@@ -185,9 +189,9 @@
 		<a href="javascript:;">更多...</a>
 	</div>
 
-	<div class="morExciting wrapper">
-		<div class="information">
-			<div class="public clearfix">
+	<div class="morExciting wrapper clearfix">
+		<div class="information pull-left">
+			<div class="public">
 				<span>最新资讯</span>
 				<a href="javascript:;">更多...</a>
 			</div>
@@ -208,8 +212,8 @@
 				<li><a href="javascript:;">央行两降贷款利率 信用卡是否也应</a></li>
 			</ul>
 		</div>
-		<div class="lawy">
-			<div class="public clearfix">
+		<div class="lawy pull-left">
+			<div class="public">
 				<span>法律法规</span>
 				<a href="javascript:;">更多...</a>
 			</div>
@@ -224,7 +228,7 @@
 				<li><a href="javascript:;">央行两降贷款利率 信用卡是否也应</a></li>
 			</ul>
 		</div>
-		<div class="activity">
+		<div class="activity pull-right">
 			<h3>活动通知</h3>
 			<img src="images/index-act.png" alt="">
 			<p>买票送爆米花/买票送眼镜/买票送饮品~
@@ -239,5 +243,5 @@
 <script>
 	var index = require('js/main');
 	index.index.init();
-	// index.index.show();
+	index.index.show();
 </script>

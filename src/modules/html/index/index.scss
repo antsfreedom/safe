@@ -7,21 +7,16 @@ body{
 	.banner{
 		position:relative;
 		height: 352px;
-		overflow: hidden;
-		.bannerBox{
-			position:absolute;
-			top:0;
-			left:0;
-			width:9000px;
 			li{
-				float:left;
+				position:absolute;
+				top:0;
+				left:0;
 				height: 352px;
 				img{
 					width: 100%;
 					height: 100%;
 				}
 			}
-		}
 		.Larrow,.Rarrow{
 			position:absolute;
 			width:43px;
@@ -140,7 +135,6 @@ body{
 	.hotSearch{
 		height: 326px;
 		.hotNews{
-			float:left;
 			background:#fff;
 			width: 930px;
 			height: 100%;
@@ -208,7 +202,6 @@ body{
 			}
 		}			
 		.writingArea{
-			float:right;
 			width:253px;
 			height: 100%;
 			background:#fff;
@@ -243,6 +236,7 @@ body{
 				}
 			}
 			.myWriting{
+				display: block;
 				margin:0 20px 15px;
 				height: 38px;
 				color:#fff;
@@ -256,7 +250,6 @@ body{
 	.askings{
 		height: 400px;
 		.askingL{
-			float:left;
 			height: 100%;
 			width:250px;
 			background:#fff;
@@ -351,7 +344,6 @@ body{
 			}
 		}
 		.askingR{
-			float:right;
 			width: 250px;
 			height: 100%;
 			background:#fff;
@@ -436,7 +428,7 @@ body{
 		height:120px;
 		overflow: hidden;
 		ul{
-			position: absolute;
+			position: absolute;      /* 轮播未做 */
 			top:0;
 			left:0;
 			padding-left:11px;
@@ -445,16 +437,23 @@ body{
 				float:left;
 				margin-right: 30px;
 				width:210px;
-				height: 120px;
 				transition: all 1s;
-				&:hover{
+				&:hover{ 
+					border:1px solid #ccc;
 					background:#fff;
 					transform:scale(1.1);
 				}
 				img{
 					width:100%;
+					margin-top:10px;
+					padding-left:10px;
+					padding-right:10px;
+					box-sizing:border-box;
 				}
 				a{
+					display: block;
+					margin-left:10px;
+					margin-bottom:30px;
 					font-size: 14px;
 				}			
 			}
@@ -481,7 +480,6 @@ body{
 				}
 			}
 		.information{
-			float:left;
 			width:455px;
 			height:100%;
 			background: #fff;
@@ -509,9 +507,7 @@ body{
 				}
 			}
 			ul{
-				margin-left:34px;
-				margin-top: 13px;
-				margin-bottom:33px;
+				margin:13px auto 33px 34px;
 				li{
 					position:relative;
 					margin-bottom:18px;
@@ -532,7 +528,6 @@ body{
 			}
 		}
 		.lawy{
-			float:left;
 			margin-left: 18px;
 			width:455px;
 			background:#fff;
@@ -559,7 +554,6 @@ body{
 			}
 		}
 		.activity{
-			float:right;
 			width:250px;
 			height: 100%;
 			background:#fff;
@@ -591,10 +585,7 @@ body{
 				font-size:16px;
 				color:#fff;
 				background:#859ab4;
-
-
 			}
-
 		}	
 	}
 }

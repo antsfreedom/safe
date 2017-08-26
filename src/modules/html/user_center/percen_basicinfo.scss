@@ -1,0 +1,287 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.total{
+	/*background: pink;*/
+	padding-bottom: 20px;
+	.heard{
+		line-height: 50px;
+		font-size: 14px;
+		a{
+			color: $gray-base;
+		}
+	}
+	.navbar{
+		width: 250px;
+		border: 1px solid $gray-light;
+		box-sizing: border-box;
+		text-align: center;
+		h3{
+			width: 250px;
+			position: relative;
+			left: -1px;
+			top: -1px;
+			background: $brand-yellow;
+			line-height: 45px;
+			color: $white;
+		}
+		ul{
+			padding: 10px 0;
+			li{
+				line-height: 50px;
+				font-size: 14px;
+				text-align: left;
+				text-indent: 100px;
+				&.moveone{
+					a{
+						color: $brand-yellow;
+					}
+				}
+				a{
+					display: block;
+				}
+			}
+		}
+	}
+
+	.contentbar{
+		width: 932px;
+		padding: 0 20px;
+		box-sizing: border-box;
+		border: 1px solid $gray-light;
+		// background: pink;
+		.head{
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 50px;
+			border-bottom: 1px solid $gray-light;
+		}
+		.contentbody{
+			padding-top: 30px;
+			ul{
+				li{
+					// background: green;
+					margin-bottom: 30px;
+					span{
+						display: inline-block;
+						vertical-align: top;
+						width: 100px;
+						text-align: right;
+					}
+					&.username{
+						.name{
+							width: auto;
+							text-indent: 30px;
+						}
+					}
+					&.gender{
+						input[type=radio]{
+							-webkit-appearance: none;
+							outline: none;
+							vertical-align: center;
+							height: 12px;
+							width: 12px;
+							padding: 2px;
+							box-sizing: border-box;
+							border-radius: 50%;
+							border: 1px solid $gray-light;
+							margin-left: 30px;
+							vertical-align: center;
+						}
+						input[type=radio]:checked{
+							-webkit-background-clip: content-box;
+							-moz-background-clip: content-box;
+							background-clip: content-box;
+							background-color: orange;
+						}
+					}
+					&.telephone{
+						.phone{
+							width: 240px;
+							height: 36px;
+							margin-left: 30px;
+							outline: none;
+							border: 1px solid $gray-light;
+						}
+					}
+					&.email{
+						.mail{
+							width: 240px;
+							height: 36px;
+							margin-left: 30px;
+							outline: none;
+							border: 1px solid $gray-light;
+						}
+					}
+					&.location{
+						.citySelect{
+							display: inline-block;
+							margin-left: 30px;
+						}
+					}
+					&.modifyAvatar{
+						margin-top: 50px;
+						.upload{
+							display: inline-block;
+							margin-left: 30px;
+							.file{
+								display: inline-block;
+								position: relative;
+	    						background: #D0EEFF;
+	    						border: 1px solid #99D3F5;
+	    						border-radius: 4px;
+	    						padding: 2px 12px 2px 30px;
+	    						overflow: hidden;
+	    						vertical-align: top;
+	    						color: black;
+	    						text-decoration: none;
+	    						text-indent: 0;
+	   							line-height: 20px;
+	   							&:before{
+	   								display: block;
+	   								content: "";
+	   								border-width: 12px;
+	   								border-style: solid;
+	   								border-color: transparent transparent transparent $white;
+	   								position: absolute;
+	   								left: 0;
+	   								top: 0;
+	   							}
+	   							input{
+	   								position: absolute;
+	    							font-size: 100px;
+	    							right: 0;
+	    							top: 0;
+	    							opacity: 0;
+	   							}
+	   							&:hover{
+	   								background: #AADFFD;
+	    							border-color: #78C3F3;
+	    							color: #004974;
+	   							}
+							
+							}
+							.description{
+								padding-top: 12px;
+								font-size: 12px;
+								color: $gray-light;
+							}
+							.picbar{
+								margin-top: 40px;
+								.samesty{
+									height: 300px;
+									width: 300px;
+									background: #aaa;
+									border-top: 1px solid transparent;
+									text-align: center;
+									&.firstbar{
+										position: relative;
+										&:after{
+											display: block;
+											content: "";
+											width: 1px;
+											height: 100%;
+											background: $gray-light;
+											position: absolute;
+											top: 0;
+											right: -28px;
+										}
+									}
+									.dottedline{
+										height: 33%;
+										width: 33%;
+										border: 1px dashed black;
+										margin: 0 auto;
+										margin-top: 25%;
+										font-size: 100px;
+										line-height: 100px;
+										color: #787878;
+									}
+									.clickguide{
+										margin-top: 10px;
+									}
+								}
+								.thethree{
+									margin-left: 58px;
+									.explain{
+										padding-bottom: 20px;
+										color: $brand-yellow;
+									}
+									.secondbar{
+										height: 200px;
+										width: 200px;
+										.dottedline{
+											font-size: 70px;
+											line-height: 70px;
+										}
+										.clickguide{
+											font-size: 12px;
+										}
+									}
+
+									.lasttwo{
+										margin-left: 30px;
+										.thirdbar{
+											height: 60px;
+											width: 60px;
+											.dottedline{
+											font-size: 20px;
+											line-height: 20px;
+											}
+											.clickguide{
+											font-size: 6px;
+											}
+										}
+										.size{
+											display: inline-block;
+											width: 60px;
+											font-size: 10px;
+											text-align: center;
+											&.size2{
+
+											}
+										}
+
+
+										.forthbar{
+											height: 30px;
+											width: 30px;
+											margin: 20px 0 0 10px;
+											.dottedline{
+											font-size: 10px;
+											line-height: 10px;
+											}
+											.clickguide{
+											font-size: 10px;
+											}
+										}
+
+									}
+								}
+							}
+
+							button{
+								border: none;
+								outline: none;
+								width: 140px;
+								height: 40px;
+								margin: 55px 0;
+								font-size: 18px;
+								&.btn01{
+									background: $brand-yellow;
+									color: $white;
+								}
+								&.btn02{
+									border: 1px solid $gray-light;
+									box-sizing: border-box;
+									background: transparent;
+								}
+
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

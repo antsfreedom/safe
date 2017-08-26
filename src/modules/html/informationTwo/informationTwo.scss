@@ -1,0 +1,242 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.informationTwo{
+	background-color: $body-bg;
+	.title{
+		ul{
+			overflow: hidden;
+			li{
+				float: left;
+				line-height: 51px;
+				a{
+				font-size: 12px;
+				color: #c9c9c9;
+				}
+				i{
+					font-size: 7px;
+					color: #c9c9c9;
+				}
+			}
+		}
+	}
+	.content-aside{
+		display: flex;
+		padding-bottom: 30px;
+		.content{
+			flex:1;
+			margin-right: 18px;
+			padding: 0 20px 80px 20px;
+			min-height: 800px;
+			background-color: #fff;
+			h1{
+				line-height: 80px;
+				font-size: 23px;
+				font-weight: bold;
+			}
+			.times{
+				padding: 10px 0;
+				border-bottom: 1px solid #eee;
+				.time{
+					margin-right: 17px;
+					color: #a2a2a2;
+				}
+				.pull-right{
+					color: #7ab8c9;
+				}
+			}
+			.label{
+				padding: 14px 0;
+				span{
+					display: inline-block;
+					margin-right: 5px;
+					padding: 6px 13px;
+					border-radius: 3px;
+					color: #fff;
+					background-color: #b9b9b9;
+				}
+				.blue{
+					background-color: #5dabc0;
+				}
+			}
+			p{
+				margin-top: 20px;
+				line-height: 23px;
+			}
+			.banner{
+				padding: 50px 108px 30px 128px;
+			}
+			.icons{
+				padding: 50px 0;
+				span{
+					display: inline-block;
+					margin-right: 6px;
+					i{
+						font-size: 32px;
+						color: green;
+					}
+				}
+			}
+			.previous{
+				a{
+					font-size: 14px;
+					color:#7ab8c9;
+				}
+			}
+			.comments{
+				margin-top: 84px;
+				p{
+					font-size: 20px;
+					font-weight: bold;
+				}
+				textarea{
+					margin-top: 25px;
+					height: 90px;
+					width: 100%;
+					box-sizing:border-box;
+				}
+			}
+			.submit{
+				margin-top:17px; 
+				overflow: hidden;
+				span{
+					display: block;
+					float: right;
+					padding: 10px 26px;
+					color: #fff;
+					background-color: #5dabc0;
+				}
+			}
+			.discuss{
+				padding: 0 10px;
+				background-color: #fff;
+				.top{
+					line-height: 43px;
+					border-bottom: 1px solid #eee;
+					color: #86bece;
+				}
+				li{
+					display: flex;
+					padding: 20px 0;
+					border-bottom: 1px dashed #eee;
+					.pic{
+						flex:0 0 40px;
+						margin-right: 20px;
+						width: 40px;
+						height: 40px;
+						img{
+							width: 100%;
+						}
+					}
+					.describe{
+						flex:1;
+						p{
+							margin: 0;
+							.name{
+								color:#86bece;
+							}
+						}
+						span{
+							margin-right: 10px;
+							color: #a2a2a2;
+						}
+					}
+				}
+			}
+			.pages{
+				position: relative;
+				margin-top: 47px;
+				ul{
+					position: absolute;
+					right: 20px;
+					top: 0;
+					overflow: hidden;
+					li{
+						float: left;
+						a{
+							display: block;
+							width: 40px;
+							height: 40px;
+							line-height: 40px;
+							text-align: center;
+							border: 1px solid #eee;
+						}
+						&:last-child{
+							width: 90px;
+							a{
+								width: 90%;
+							}
+						}
+					}
+				}
+			}
+		}
+		.aside{
+			flex:0 0 250px;
+			.aside-list{
+				margin-bottom: 16px;
+				background-color: #fff;
+				p{
+					padding: 0 19px;
+					line-height: 53px;
+					font-size: 18px;
+					font-weight: bold;
+					border-bottom: 1px solid #eee;
+				}
+				li{
+					
+					a{
+						position: relative;
+						display: block;
+						padding: 15px 20px;
+						span{
+							margin-left: 10px;
+						}
+						&:before{
+							position: absolute;
+							left: 20px;
+							top: 23px;
+							display: block;
+							height: 4px;
+							width: 4px;
+							content: " ";
+							background-color: #8dc4d3;
+						}
+					}
+				}
+				.phto-txt{
+					display: flex;
+					padding: 20px 20px 0 20px;
+					.phto{
+						flex:0 0 45px;
+						margin-right: 12px;
+						img{
+							width: 100%;
+						}
+					}
+					.txt{
+						flex:1;
+						.text{
+							font-weight: bold;
+						}
+						span{
+							display: block;
+						}
+						.red{
+							color: #f65a45;
+						}
+					}
+				}
+				.draft{
+					display: inline-block;
+					margin: 20px 0 14px 20px;
+					padding: 13px 73px;
+					background-color: #859ab4;
+					a{
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,160 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+body{
+	background:#fbfbfb;
+}
+
+.publicVideo{
+		margin-bottom:18px;
+	.publicHeader{
+		height: 52px;
+		line-height: 52px;
+		a{
+			font-size: 14px;
+		}
+	}
+	.content{
+		.introduction{
+			width:930px;
+			padding-bottom:150px;
+			background:#fff;
+			.proTitle{
+				padding-top: 40px;
+				margin:auto 23px;
+				font-size: 24px;
+				text-align: center;
+				border-bottom:1px solid #ccc;
+				span{
+					display: block;
+					margin-top:20px;
+					padding-bottom:8px;
+					font-size: 14px;
+				}
+			}
+			.projectLogo{
+				position:relative;
+				width:430px;
+				margin:22px auto 55px auto;
+				.pic{
+					display: block;
+					width:100%;
+				}
+				.play{
+					position:absolute;
+					top:50%;
+					left:50%;
+					display: block;
+				}		
+			}
+			.summary{
+				margin:auto auto 118px 39px;				
+				.brief{
+					li{
+						margin-bottom:28px;
+						&:first-child{
+							margin-right:560px;
+							padding-bottom:14px;
+							border-bottom:1px dashed #ccc;
+						}
+						span{
+							display: block;
+							line-height: 20px;
+						}
+					}
+				}
+			}
+			.comment{
+				position:relative;
+				margin:auto 42px;
+				&:after{
+					position:absolute;
+					bottom:40px;
+					right:-6px;
+					display: table;
+					content: "";
+					width:10px;
+					height: 10px;
+					border-bottom:1px solid #888;
+					border-right:1px solid #888;
+					background:#fff;
+				}
+				h2{
+					font-size: 18px;
+				}
+				textarea{
+					margin:20px auto 36px;				
+					width:100%;
+					height:92px;
+				}
+				input{
+					position:absolute;
+					right:0;
+					bottom:-50px;
+					padding:10px 32px;
+					margin-bottom:18px;
+					background:#5dabc0;
+					color:#fff;
+				}
+			}
+			.assess{
+				margin:16px 42px auto;
+				h3{
+					padding-bottom:12px;
+					font-size: 14px;
+					border-bottom:1px solid #ccc;
+				}
+				ul{
+					li{
+						display: flex;
+						padding:20px 0;
+						border-bottom:1px dashed #ccc;
+						.pic{
+							flex:0 0 40px;
+							width:40px;
+							img{
+								width:100%;
+							}
+						}
+						.comments{
+							flex:1;
+							margin-left:20px;
+							p{
+								line-height: 24px;
+								span{
+									color:#5dabc0;
+								}
+							}
+						}
+					}
+				}				
+			}
+		}
+	}
+	.hotProject{
+		width:250px;
+		background:#fff;
+		h2{
+			font-size: 18px;
+			padding:16px 0 16px 20px;
+			border-bottom:1px solid #ccc;
+		}
+		ul{
+			margin-top:24px;
+			margin-left:32px;
+			li{
+				position:relative;
+				margin-bottom:19px;
+				&:after{
+					position:absolute;
+					left:-15px;
+					top:10px;
+					content: "";
+					display: table;
+					width:4px;
+					height: 4px;
+					background:#8dc4d3;
+				}
+			}
+		}
+	}
+}

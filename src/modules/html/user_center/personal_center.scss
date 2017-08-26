@@ -117,7 +117,7 @@
 					}
 				}
 
-				button{
+				.btn{
 					border: none;
 					outline: none;
 					height: 30px;
@@ -130,7 +130,11 @@
 						background: #89ba2a;
 						margin-right: 20px;
 					}
+					&:first-child{
+						font-size: 40px;
+					}
 				}
+
 				
 			}
 		}
