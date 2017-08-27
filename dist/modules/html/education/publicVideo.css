@@ -1,0 +1,7 @@
+body{background:#fbfbfb}
+.publicVideo{margin-bottom:18px}
+.publicVideo .publicHeader{height:52px;line-height:52px}
+.publicVideo .publicHeader a{font-size:14px}
+.publicVideo .content .introduction{width:956px;background:#fff}
+.publicVideo .content .proTitle{padding-top:40px;margin:auto 23px;font-size:24px;text-align:center;border-bottom:1px solid #ccc}
+.publicVideo .content .proTitle span{display:block;margin-top:20px;padding-bottom:8px;font-size:14px}
