@@ -1,0 +1,40 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+body{
+	background:$body-bg;
+}
+
+.examination{
+	margin-bottom:20px;
+	.examHeader{
+		height: 52px;
+		line-height: 52px;
+		a{
+			font-size: 14px;
+		}
+	}
+	.content{
+		background:$white;
+		padding-bottom:144px;
+		h3{
+			font-size: 18px;
+			font-weight:600;
+			text-align: center;
+			line-height: 92px;
+			border-bottom: 1px solid #ccc;
+		}
+		p{
+			padding:40px 300px 50px;
+		}
+		a{
+			display: block;
+			width:160px;
+			height:50px;
+			color:#fff;
+			margin:0 auto;
+			line-height: 50px;
+			text-align: center;
+			background:#8dc4d3;
+		}
+	}
+}

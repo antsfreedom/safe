@@ -1,0 +1,99 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.starPast{
+	background-color: $body-bg;
+	.starPast_list{
+		padding: 16px 0;
+		span{
+			margin: 0 10px;
+		}
+	}
+	.starPast_detail{
+		position: relative;
+		.starPast_nav{
+			margin-right: 20px;
+			width: 930px;
+			background-color: $white;
+
+			p{
+				display: inline-block;
+			  vertical-align: top;
+			  padding: 16px 12px;
+			  box-sizing:border-box;
+			}
+			ul{
+				display: inline-block;
+			  vertical-align: top;
+			  padding: 10px 20px;
+			  li{
+			  	.listson{
+			  		li{
+			  			display: inline-block;
+			        vertical-align: top;
+			        margin-right: 10px;
+			        padding: 6px 12px;
+			        box-sizing:border-box;
+			        &:hover{
+			        	background-color: $brand-red;
+			        	a{
+			        		color:white;
+			        	}
+			        }
+			  		}
+			  	}
+			  }
+			}
+		}
+		.starPast_recommend{
+			width: 250px;
+			background-color: $white;
+			p{
+				padding-left: 20px;
+				height: 50px;
+				line-height: 50px;
+				font-weight: 700;
+				border-bottom: 1px solid #eeeeee;
+			}
+			ul{
+				margin-left: 20px;
+				line-height: 32px;
+				li{
+					margin-left: 20px;
+					list-style: square;
+				}
+			}
+		}
+	}
+	.detail_bg{
+		height: 15px;
+		background-color: $body-bg;
+	}
+	.detail_list{
+		padding:30px 0;
+		width: 930px;
+		border-bottom: 1px solid $gray-lighter;
+		.list_pic{
+			margin-left: 25px;
+			height: 110px;
+			width: 160px;
+			img{
+				height: 100%;
+				width: 100%;
+			}
+		}
+		.list_title{
+			margin-left: 25px;
+			width: 660px;
+			dl{
+				dt{
+         font-weight: 700;
+				}
+				dd{
+          margin-top: 20px;
+          line-height: 25px;
+				}
+			}
+		}
+	}
+}

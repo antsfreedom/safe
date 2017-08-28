@@ -2,9 +2,13 @@
 @import "../../css/mixins.scss";
 
 .safeStar{
-	padding-top: 25px;
-	height: 1000px;
 	background-color:$body-bg;
+	.safeStar_list{
+		padding: 16px 0;
+		span{
+			margin: 0 10px;
+		}
+	}
 	.safeStar_introduction{
 		background-color: $white;
 		dt{
@@ -12,6 +16,11 @@
 			box-sizing: border-box;
 			font-weight: $font-weight-bold;
 			border-bottom: 1px solid $body-bg;
+			&.corporate_t{
+				padding:16px 0  6px 0;
+				border: none;
+				text-align: center;
+			}
 		}
 		.introduction_detail{
 			margin: 20px 0 0 30px;
@@ -27,28 +36,118 @@
 				}
 			}
 			.detail_txt{
+				margin-right: 53px;
 				width: 422px;
+				line-height: 22px;
 				h2{
-					padding: 20px 0;
+					padding: 16px 0 14px 0;
 					box-sizing: border-box;
 					&.txt_culpro{
-						padding: 16px 0;
+						padding-top: 0;
+						padding-bottom: 10px;
 					}
 				}
-				.txt_culture{
+				.txt_culture{ 
+					margin-top: 50px;                               
 					padding-right: 43px;
 					box-sizing: border-box;
-					width: 195px;
+					width: 236px;
 					border-right: 1px solid #f9f9f9;
 				}
 				.txt_product{
+					margin-top: 50px;                               
 					margin-left: 33px;
-					width: 100px;
+					width: 95px;
 				}
 			}
 			.detail_corporate{
+				margin-top: 30px;
 				width: 235px;
+				.corporate_detail{
+					margin: 0 auto;
+					width: 124px;
+					dt{
+						text-align: center;
+					}
+					dd{
+						line-height: 25px;
+					}
+				}
 			}
+		}
+	}
+	.safeStar_parentlist{
+		margin-top: 25px;
+		.parentlist_title{
+			padding:15px;
+			background-color: $white;
+		  box-sizing: border-box;
+			border-bottom: 1px solid $gray-lighter;
+			p{
+				font-size: $font-size-large;
+		  	font-weight: $font-weight-bold;
+			}
+		}
+		.safeStar_list{
+			background-color: $white;
+			padding:0 28px;
+		  box-sizing: border-box;
+			.list_title {
+				position: relative;
+				margin-bottom: 30px;
+				height: 56px;
+				line-height: 56px;
+				font-size: $font-size-large; 
+				border-bottom: 1px solid $gray-lighter;
+	      span{
+	      	color: #b6b6b6;
+	      }
+				&:after{
+					position: relative;
+					bottom: 0;
+					left: 10px;
+					height: 0;
+					width: 0;
+					border-style: solid;
+					border-width: 10px;
+					border-color:  $gray-lighter $white $white $white;
+				}
+			}
+		  .list_detail{
+		  	padding-bottom: 30px;
+				.detail_type{
+					p{
+						margin-right: 20px;
+						height: 40px;
+						line-height: 40px;
+					}
+				}
+				.detail_department{
+					margin-right: 60px;
+					p{
+						padding: 8px 16px;
+						color: $white;
+						background-color: $brand-blue;
+					}
+				}
+				.detail_pic{
+					margin-right: -14px;
+					.pic_fath{
+						.pic_attr{
+							margin-right: 14px;
+							height: 177px;
+							width: 215px;
+							img{
+								height: 150px;
+								width: 215px;
+							}
+							p{
+								text-align: center;
+							}
+						}
+					}
+				}
+		  }
 		}
 	}
 }
