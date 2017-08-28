@@ -1,0 +1,123 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+body{
+	background:$body-bg;
+}
+
+.examContent{
+	margin-bottom:20px;
+	.examHeader{
+		height: 52px;
+		line-height: 52px;
+		a{
+			font-size: 14px;
+		}
+	}
+	.content{
+		padding-top:13px;
+		background:$white;
+		padding-bottom:60px;
+		.ruler{
+			margin:0 14px;
+			padding:0 40px;
+			line-height: 54px;
+			border-bottom: 1px solid #ccc;
+			h2{
+				font-size: 24px;
+			}
+			p{
+				span{
+					font-size: 16px;
+					margin-left:20px;
+				}
+			}
+			span{
+				font-size: 16px;
+				float:right;
+			}
+		}
+		.examList{
+			float:left;
+			padding-left:62px;
+			margin-top: 42px;
+			ul{
+				li{
+					display: none;					
+					h4{
+						margin-bottom: 22px;
+					}
+					p{
+
+						margin-bottom:17px;
+						&:last-child{
+							margin-bottom:0;
+						}
+						input{
+							margin-right: 12px;
+						}
+					}				
+					span{
+						display: inline-block;
+						width:84px;
+						height: 32px;
+						margin-top:34px;
+						margin-right: 10px;
+						text-align:center;
+						line-height: 32px;
+						color:#fff;
+						background:#ccc;
+						&:hover{
+							background:#ffa200;
+						}
+					}
+				}
+			}
+		}
+		.examTab{
+			float:right;
+			width:300px;
+			margin-right:54px;
+			ul{
+				margin-top:32px;
+				li{
+					float:left;
+					width:40px;
+					height: 40px;
+					line-height: 40px;
+					text-align: center;
+					background:#f3f3f3;
+					margin-right:9px;
+					margin-bottom:9px;
+					&:last-child{
+						margin-right: 0;
+					}
+					a{
+						display: block;
+					}
+					&.on{
+						background:#d7d7d7;
+					}
+				}
+			}
+			.over{
+				float:right;
+				padding-right:15px;
+				a{
+					display: inline-block;
+					width:103px;
+					height:40px;
+					line-height: 40px;
+					text-align: center;
+					color:#fff;
+					&:first-child{
+						background:#e54028;
+					}
+					&:last-child{
+						background:#f3f3f3;
+						color:#000;
+					}
+				}			
+			}
+		}
+	}
+}

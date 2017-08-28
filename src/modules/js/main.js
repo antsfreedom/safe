@@ -20,7 +20,7 @@ var index = {
 					if(i==length){
 						i=0;
 					}
-					$(".bannerBox li").eq(i).stop().fadeIn(500).siblings().stop().fadeOut(500);				
+					$(".bannerBox li").eq(i).stop().fadeIn(1000).siblings().stop().fadeOut(1000);				
 				}
 
 
@@ -29,7 +29,7 @@ var index = {
 				if(i==-1){
 					i=length-1;
 				}
-				$(".bannerBox li").eq(i).stop().fadeIn(500).siblings().stop().fadeOut(500);				
+				$(".bannerBox li").eq(i).stop().fadeIn(1000).siblings().stop().fadeOut(1000);				
 			}
 
 				$(".Larrow").click(function(){
@@ -41,7 +41,21 @@ var index = {
 				})
 			})
 		})
-	}
+	},
+
+	tabShow:function(num){
+		require(['jquery'],function($){
+			$(document).ready(function(){
+				$(".examTab ul li").first().addClass("on")
+				$(".examTab ul li").click(function(){
+					var index = $(this).index();
+					$(this).addClass("on").siblings().removeClass("on");
+					$(".examList ul li").eq(index).show().siblings().hide()
+				})
+			})
+		})
+	},
+
 }
  
 var user_center = {
