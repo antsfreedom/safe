@@ -1,0 +1,56 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+body{
+	background:$body-bg;
+}
+
+.examResult{
+	margin-bottom:20px;
+	.allHeader{
+		height: 52px;
+		line-height: 52px;
+		a{
+			font-size: 14px;
+		}
+	}
+	.content{
+		background:#fff;
+		padding-top: 24px;
+		padding-bottom:190px;
+
+		h3{
+			margin:0 15px;
+			line-height: 46px;
+			text-align: center;
+			font-size: 24px;
+			border-bottom: 1px solid #ccc;
+		}
+		.result{	
+			margin-left:290px;
+				margin-top:108px;
+			.pic{
+				float:left;
+				img{
+				}				
+			}
+			.score{
+				height: 173px;
+				float:left;
+				line-height: 173px;
+				h4{
+					display: inline-block;
+					font-size: 24px;
+					color:#e54128;
+				}
+				p{
+					display: inline-block;
+					margin-left:38px;
+					font-size: 20px;
+					span{
+						color:#e54128;
+					}
+				}				
+			}
+		}
+	}
+}
