@@ -28,6 +28,8 @@
       .dun{
         width:45%;
         text-align:center;
+        border-right:1px solid #ccc;
+        margin-top:92px;
         img{
           margin-top:92px;
         }
@@ -45,8 +47,6 @@
       .debark-right{
         width:45%;
         margin-top:92px;
-        border-left:1px solid #ccc;
-        padding-left:102px;
         .Title{
           margin-right:37px;
           .Title-left{
@@ -73,6 +73,7 @@
             line-height:47px;
             width:290px;
             outline:medium;
+            text-indent:15px;
           }
           i{
             font-size:25px;
@@ -90,6 +91,7 @@
             line-height:47px;
             width:290px;
             outline:medium;
+            text-indent:15px;
           }
           i{
             font-size:25px;
@@ -104,6 +106,7 @@
             height:46px;
             border:1px solid #ccc;
             margin-right:14px;
+            text-indent:15px;
           }
           .verify-right{
             width:125px;
