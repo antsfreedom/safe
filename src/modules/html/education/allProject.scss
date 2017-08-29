@@ -1,7 +1,7 @@
 @import "../../css/variables.scss";
 @import "../../css/mixins.scss";
 body{
-	background:#fbfbfb;
+	background:$body-bg;
 }
 .allProject{
 	margin-bottom:18px;
@@ -13,7 +13,7 @@ body{
 		}
 	}
 	.content{
-		background:#fff;
+		background:$white;
 		.public{
 			padding-left:17px;
 			padding-right:13px;

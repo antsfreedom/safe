@@ -1,7 +1,7 @@
 @import "../../css/variables.scss";
 @import "../../css/mixins.scss";
 body{
-	background:#fbfbfb;
+	background:$body-bg;
 }
 .education{
 	.public{
@@ -19,7 +19,7 @@ body{
 		}
 	}
 	.project{
-		background: #fff;
+		background: $white;
 		margin-top:23px;
 		.chatWhite{
 			width:220px;
@@ -74,56 +74,10 @@ body{
 				}
 			}
 		}
-		// .project-list{
-		// 	margin-top:18px;
-		// 	margin-left:30px;
-		// 	margin-left:250px;
-		// 	ul{
-		// 		margin-right: -30px;
-		// 		li{
-		// 			position: relative;
-		// 			float:left;
-		// 			margin-right:30px;
-		// 			margin-bottom:30px;
-		// 			width:210px;
-		// 			transition: all 1s;
-		// 			// &:hover{
-		// 			// 	border:1px solid #ccc;
-		// 			// 	color:#fff;
-		// 			// 	background:#fff;
-		// 			// 	transform:scale(1.1);
-		// 			// }
-		// 			// img{
-		// 			// 	width:100%;
-		// 			// 	margin-top:10px;
-		// 			// 	padding-left:10px;
-		// 			// 	padding-right:10px;
-		// 			// 	box-sizing:border-box;
-		// 			// }
-		// 			a{
-		// 				display: block;
-		// 				margin-left:10px;
-		// 				// margin-bottom:30px;
-		// 				font-size: 14px;
-		// 			}
-		// 			span{
-		// 				position:absolute;
-		// 				left:14px;
-		// 				bottom:50px;
-		// 				display: block;
-		// 				width:30px;
-		// 				height: 30px;
-		// 				img{
-		// 					width:100%;
-		// 				}
-		// 			}
-		// 		}
-		// 	}			
-		// }
 	}
 	.Anime{
 		margin-top:20px;
-		background:#fff;
+		background:$white;
 		.pic{
 			float:left;
 			width:460px;
@@ -166,21 +120,6 @@ body{
 					}
 				}
 			}
-			// ul{
-			// 	margin-left:480px;
-			// 	margin-top: 28px;
-			// 	li{
-			// 		float:left;
-			// 		margin-right:30px;
-			// 		width:210px;
-			// 		img{
-			// 			width:100%;
-			// 		}
-			// 		a{
-			// 			display: block;
-			// 		}
-			// 	}
-			// }					
 		}
 	}
 
@@ -204,7 +143,7 @@ body{
 		.safety{
 			width:455px;
 			height:100%;
-			background: #fff;
+			background: $white;
 			ul{
 				margin:13px auto 33px 34px;
 				li{
@@ -229,7 +168,7 @@ body{
 		.training{
 			margin-left: 18px;
 			width:455px;
-			background:#fff;
+			background:$white;
 			height: 100%;
 			ul{
 				margin:24px auto 36px 35px;
@@ -255,8 +194,9 @@ body{
 		.exam{
 			width:250px;
 			height: 100%;
-			background:#fff;
-			h3{
+			background:$white;
+			a{
+				display: block;
 				padding:15px 0 17px 19px;
 				font-weight: 600;
 				font-size:18px;

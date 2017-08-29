@@ -1,7 +1,7 @@
 @import "../../css/variables.scss";
 @import "../../css/mixins.scss";
 body{
-	background:#fbfbfb;
+	background:$body-bg;
 }
 
 .publicVideo{
@@ -17,7 +17,7 @@ body{
 		.introduction{
 			width:930px;
 			padding-bottom:150px;
-			background:#fff;
+			background:$white;
 			.proTitle{
 				padding-top: 40px;
 				margin:auto 23px;
@@ -132,7 +132,7 @@ body{
 	}
 	.hotProject{
 		width:250px;
-		background:#fff;
+		background:$white;
 		h2{
 			font-size: 18px;
 			padding:16px 0 16px 20px;
