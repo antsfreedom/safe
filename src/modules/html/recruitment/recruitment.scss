@@ -1,0 +1,116 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.recruitment{
+	background-color: $body-bg;
+	.recruitment_link{
+		padding: 18px 0;
+	}
+	.content_asidebar{
+		width: 260px;
+		.asidebar_demand{
+			margin-top: 12px;
+			padding-bottom: 20px;
+			span{
+				padding: 12px 16px;
+				box-sizing: border-box;
+				background-color: $brand-yellow;
+			}
+		}
+		.asidebar_detail{
+		  margin-top: 12px;
+		  background-color: $white;
+		  .detail_title{
+		  	padding-left: 20px;
+		    box-sizing:border-box;
+				font-weight: 600;
+				line-height: 55px;
+				font-size: $font-size-large;
+				border-bottom: 1px solid $gray-lighter;
+		  }
+		  .detail_main{
+		  	margin-top: 18px;
+		    padding-left: 20px;
+		    box-sizing:border-box;
+		  	ul{
+		  		li{
+		  			line-height: 30px;
+		  			position: relative;
+		  			&:before{
+		  				position: absolute;
+		  				top: 14px;
+		  				left: -10px;
+		  				display: block;
+		  				content: " ";
+              width: 0;
+		  				height: 0;
+		  				border-width: 3px;
+		  				border-style: solid;
+		  				border-color: $brand-blue;	
+		  			}
+		  		}
+		  	}
+		  }
+		}
+		.asidebar_pic{
+			margin-top: 30px;
+			width: 100%;
+			img{
+				width: 100%;
+			}
+		}
+	}
+	.content_mainbar{
+		margin-right: 270px;
+		margin-bottom: 100px;
+		background-color: $white;
+		.mainbar_title{
+			padding:18px;
+			box-sizing: border-box;
+			font-size: $font-size-large;
+			font-weight: 500;
+			border-bottom:1px solid $gray-lighter;
+		}
+		.mainbar_detail{
+			ul{
+				margin-right: -8px;
+				padding: 24px 18px  0;
+				box-sizing: border-box;
+				li{
+					margin-right: 8px;
+					width: 24%;
+						dl{
+							padding-bottom: 12px;
+				      border-bottom:1px dotted $gray-lighter;
+				      a{
+				      	display:block;
+				      }
+							dt{
+								line-height: 30px;
+							}
+							dd{
+								line-height: 30px;
+								&.detail_pic{
+									width: 100%;
+									img{
+										height: 100%;
+										width: 100%;
+									}
+								}
+							}
+						}
+					.detail_welfare{
+						margin-top: 20px;
+						padding-bottom: 45px;
+						span{
+						  padding: 3px 6px;
+						  box-sizing: border-box;
+							font-size: $font-size-small;
+							border: 2px solid $gray-lighter;
+						}
+					}
+				}
+			}
+		}
+	}
+}

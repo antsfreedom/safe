@@ -16,29 +16,29 @@
 	<script src="lib/mod.js"></script>
 	<!--SCRIPT_PLACEHOLDER-->
 	<script>
-		// window.onload = function(){
-		// var oDiv = document.getElementById("learn");
-		// var oul = oDiv.getElementsByTagName("ul")[0];
-		// var aLi = oul.getElementsByTagName("li");
-		// var time;
-		// oul.innerHTML = oul.innerHTML + oul.innerHTML;
-		// oul.style.width = aLi[0].offsetWidth*aLi.length+"px";
+		window.onload = function(){
+		var oDiv = document.getElementById("learn");
+		var oul = oDiv.getElementsByTagName("ul")[0];
+		var aLi = oul.getElementsByTagName("li");
+		var time;
+		oul.innerHTML = oul.innerHTML + oul.innerHTML;
+		oul.style.width = aLi[0].offsetWidth*aLi.length+"px";
 
-		// function move(){
-		// 	if(oul.offsetLeft<-oul.offsetWidth/2 + 300){
-		// 		oul.style.left="0";
-		// 	}
-		// 	 oul.style.left = oul.offsetLeft-2+"px"
-		//   }
-		//  time = setInterval(move,30)
+		function move(){
+			if(oul.offsetLeft<-oul.offsetWidth/2 + 300){
+				oul.style.left="0";
+			}
+			 oul.style.left = oul.offsetLeft-2+"px"
+		  }
+		 time = setInterval(move,30)
 
-		// oul.onmouseover = function(){
-		// 	clearInterval(time)
-		// }
-		// oul.onmouseout = function(){
-		// 	time=setInterval(move,30)
-		// }		
-	// }
+		oul.onmouseover = function(){
+			clearInterval(time)
+		}
+		oul.onmouseout = function(){
+			time=setInterval(move,30)
+		}		
+	}
 
 	</script>
 </body>

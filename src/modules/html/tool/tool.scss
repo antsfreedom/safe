@@ -1,4 +1,97 @@
-.swiper-container {
-  width: 100%;
-  height: 350px;
+@import "../../css/_variables.scss";
+@import "../../css/_mixins.scss";
+.tool{
+	background-color: $body-bg;
+	.swiper-container {
+	  width: 100%;
+	  height: 350px;
+	}
+	.tool_content{
+		margin-top: 40px;
+		.content_titl{
+			border-bottom: 2px solid $gray-lighter;
+			p{
+				margin-bottom: 15px;
+				margin-left: 30px;
+			}
+     ul{
+	     	li{
+	     		display: inline-block;
+	     		margin-top: 15px;
+	     		margin-right: 50px;
+	     		&:last-child{
+	     			margin-right: 170px;
+	     		}
+     			.active{
+     				position: relative;
+     				color: $brand;
+     				&:after{
+              position: absolute;
+              bottom: -2px;
+              left: 0;
+              height: 0;
+              width: 100%;
+              content: '';
+              border: 2px solid $brand;
+     				}
+     			}
+	     		&:hover{
+	     			a{
+	     				position: relative;
+	     				color: $brand;
+	     				&:after{
+                position: absolute;
+                bottom: -2px;
+                left: 0;
+                height: 0;
+                width: 100%;
+                content: '';
+                border: 2px solid $brand;
+	     				}
+	     			}
+	     		}
+	      }
+	    }
+		}
+		.content_detail{
+			.product_detail{
+				margin-right: -13px;
+				padding: 0 20px 120px 20px;
+				box-sizing:border-box;
+				.detail_content{
+					margin-right: 13px;
+					margin-top: 20px;
+					width: 32%;
+					overflow: hidden;
+					border: 1px solid $gray-lighter;
+					.content_txt{
+						padding: 0 30px;
+						box-sizing: border-box;
+						width: 100%;
+						h2{
+							padding: 20px 0;
+							font-size: $font-size-large;
+				      font-weight: $font-weight-bold; 
+						}
+						img{
+							width: 100%;
+						  box-sizing: border-box;
+						}
+						ul{
+							margin: 30px 0; 
+							li{
+								display: inline-block;
+								padding: 12px 20px;
+								box-sizing: border-box;
+								margin-right: 4px;
+								a{
+								  color: white;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

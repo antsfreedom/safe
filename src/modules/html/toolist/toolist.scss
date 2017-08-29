@@ -1,0 +1,86 @@
+@import "../../css/_variables.scss";
+@import "../../css/_mixins.scss";
+.toolist{
+	.toolist_content{
+		padding-top: 20px;
+		background-color: $body-bg;
+		.content_bg{
+			padding:50px 30px 100px;
+			background-color: $white;
+			.content_title{
+				.title_pic{
+					margin-right: 30px;
+					width: 440px;
+					height: 185px;
+					overflow: hidden;
+					img{
+						height: 100%;
+						width: 100%;
+					}
+				}
+				.title_detail{
+					margin-left: 440px;
+					dt{
+						font-size: 30px;
+						font-weight: 500;
+					}
+					dd{
+						&.detail_time{
+	  					margin-right: 20px; 
+							color: #c6c6c6;
+							line-height: 34px;
+						}
+						&.detail_txt{
+							line-height: 28px;
+						}
+					}
+				}
+			}
+			.content_detail{
+				ul{
+					li{
+						dl{
+							dt{
+								display: inline-block;
+								padding:12px 20px;
+								margin: 40px 0;
+								color: $white;
+								&.dt_bgy{
+									background-color:$brand-yellow ;
+								}
+								&.dt_bgb{
+									background-color:$brand-blue ;
+								}
+								&.dt_bgg{
+									background-color:$brand-green ;
+								}
+							}
+							dd{
+								&.dd_txt{
+									margin-bottom: 25px;
+								}
+								&.dd_sub{
+									margin-left: 57px;
+								}
+								input{
+									margin-left: 16px;
+									padding-left: 10px;
+									box-sizing: border-box;
+									width: 275px;
+									height: 40px;
+								  border: 1px solid  $gray-lighter;
+								  outline: none;
+								}
+								span{
+									&.name{
+										margin-left: 28px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}	
