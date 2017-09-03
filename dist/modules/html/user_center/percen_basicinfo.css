@@ -1,0 +1,49 @@
+.total{padding-bottom:20px}
+.total .heard{line-height:50px;font-size:14px}
+.total .heard a{color:#585858}
+.total .navbar{width:250px;border:1px solid #b1b1b1;box-sizing:border-box;text-align:center}
+.total .navbar h3{width:250px;position:relative;left:-1px;top:-1px;background:#f9b000;line-height:45px;color:#fff}
+.total .navbar ul{padding:10px 0}
+.total .navbar ul li{line-height:50px;font-size:14px;text-align:left;text-indent:100px}
+.total .navbar ul li.moveone a{color:#f9b000}
+.total .navbar ul li a{display:block}
+.total .contentbar{width:932px;padding:0 20px;box-sizing:border-box;border:1px solid #b1b1b1}
+.total .contentbar .head{font-size:16px;font-weight:700;line-height:50px;border-bottom:1px solid #b1b1b1}
+.total .contentbar .contentbody{padding-top:30px}
+.total .contentbar .contentbody ul li{margin-bottom:30px}
+.total .contentbar .contentbody ul li span{display:inline-block;vertical-align:top;width:100px;text-align:right}
+.total .contentbar .contentbody ul li.username .name{width:auto;text-indent:30px}
+.total .contentbar .contentbody ul li.gender input[type=radio]{-webkit-appearance:none;outline:0;vertical-align:center;height:12px;width:12px;padding:2px;box-sizing:border-box;border-radius:50%;border:1px solid #b1b1b1;margin-left:30px;vertical-align:center}
+.total .contentbar .contentbody ul li.gender input[type=radio]:checked{-webkit-background-clip:content-box;-moz-background-clip:content-box;background-clip:content-box;background-color:orange}
+.total .contentbar .contentbody ul li.telephone .phone{width:240px;height:36px;margin-left:30px;outline:0;border:1px solid #b1b1b1}
+.total .contentbar .contentbody ul li.email .mail{width:240px;height:36px;margin-left:30px;outline:0;border:1px solid #b1b1b1}
+.total .contentbar .contentbody ul li.location .citySelect{display:inline-block;margin-left:30px}
+.total .contentbar .contentbody ul li.modifyAvatar{margin-top:50px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload{display:inline-block;margin-left:30px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .file{display:inline-block;position:relative;background:#D0EEFF;border:1px solid #99D3F5;border-radius:4px;padding:2px 12px 2px 30px;overflow:hidden;vertical-align:top;color:#000;text-decoration:none;text-indent:0;line-height:20px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .file:before{display:block;content:"";border-width:12px;border-style:solid;border-color:transparent transparent transparent #fff;position:absolute;left:0;top:0}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .file input{position:absolute;font-size:100px;right:0;top:0;opacity:0}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .file:hover{background:#AADFFD;border-color:#78C3F3;color:#004974}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .description{padding-top:12px;font-size:12px;color:#b1b1b1}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar{margin-top:40px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .samesty{height:300px;width:300px;background:#aaa;border-top:1px solid transparent;text-align:center}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .samesty.firstbar{position:relative}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .samesty.firstbar:after{display:block;content:"";width:1px;height:100%;background:#b1b1b1;position:absolute;top:0;right:-28px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .samesty .dottedline{height:33%;width:33%;border:1px dashed #000;margin:0 auto;margin-top:25%;font-size:100px;line-height:100px;color:#787878}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .samesty .clickguide{margin-top:10px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree{margin-left:58px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .explain{padding-bottom:20px;color:#f9b000}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .secondbar{height:200px;width:200px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .secondbar .dottedline{font-size:70px;line-height:70px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .secondbar .clickguide{font-size:12px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .lasttwo{margin-left:30px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .lasttwo .thirdbar{height:60px;width:60px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .lasttwo .thirdbar .dottedline{font-size:20px;line-height:20px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .lasttwo .thirdbar .clickguide{font-size:6px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .lasttwo .size{display:inline-block;width:60px;font-size:10px;text-align:center}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .lasttwo .forthbar{height:30px;width:30px;margin:20px 0 0 10px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .lasttwo .forthbar .dottedline{font-size:10px;line-height:10px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload .picbar .thethree .lasttwo .forthbar .clickguide{font-size:10px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload button{border:0;outline:0;width:140px;height:40px;margin:55px 0;font-size:18px}
+.total .contentbar .contentbody ul li.modifyAvatar .upload button.btn01{background:#f9b000;color:#fff}
+.total .contentbar .contentbody ul li.modifyAvatar .upload button.btn02{border:1px solid #b1b1b1;box-sizing:border-box;background:transparent}

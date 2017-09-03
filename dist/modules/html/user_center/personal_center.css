@@ -1,0 +1,43 @@
+.total{}
+.total .heard{line-height:50px;font-size:14px}
+.total .heard a{color:#585858}
+.total .navbar{width:250px;border:1px solid #b1b1b1;box-sizing:border-box;text-align:center}
+.total .navbar h3{width:250px;position:relative;left:-1px;top:-1px;background:#f9b000;line-height:45px;color:#fff}
+.total .navbar ul{padding:10px 0}
+.total .navbar ul li{line-height:50px;font-size:14px}
+.total .navbar ul li.moveone{text-indent:14px}
+.total .contentbar{width:932px}
+.total .contentbar .owndata{border:1px solid #b1b1b1;padding:20px 30px}
+.total .contentbar .owndata .avata{height:110px;width:110px;border-radius:50%;background-image:url(../../../pkg/images/user_center01.png);background-repeat:no-repeat;background-position:center -20px}
+.total .contentbar .owndata .loginMessage{width:330px;padding:12px 0 0 35px;font-size:12px;position:relative}
+.total .contentbar .owndata .loginMessage:after{dispalay:block;content:"";width:1px;height:calc(100% - 12px);background:#b1b1b1;position:absolute;bottom:0;right:0}
+.total .contentbar .owndata .loginMessage .name{font-size:16px;font-weight:700;padding-bottom:18px}
+.total .contentbar .owndata .loginMessage .integral{padding-bottom:30px}
+.total .contentbar .owndata .loginMessage .integral p{margin-right:40px;font-weight:700}
+.total .contentbar .owndata .loginMessage .integral p span{color:#f9b000}
+.total .contentbar .owndata .info{padding:30px 0 0 50px;font-size:0}
+.total .contentbar .owndata .info .myProfile{padding-bottom:24px}
+.total .contentbar .owndata .info .myProfile .title{vertical-align:center;margin-right:30px;font-size:14px}
+.total .contentbar .owndata .info .myProfile .progress{display:inline-block;vertical-align:center;width:160px;height:14px;background:#b1b1b1}
+.total .contentbar .owndata .info .myProfile .progress:before{display:block;height:100%;width:30%;background:green;content:"30%";text-align:center;line-height:14px;font-size:12px;color:#fff}
+.total .contentbar .owndata .info .btn{border:0;outline:0;height:30px;width:100px;font-size:14px;color:#fff;background-color:#5da9c0}
+.total .contentbar .owndata .info .btn:nth-child(2){background:#89ba2a;margin-right:20px}
+.total .contentbar .owndata .info .btn:first-child{font-size:40px}
+.total .contentbar .myQuestion{border:1px solid #b1b1b1;margin:20px 0;padding:0 20px}
+.total .contentbar .myQuestion .questionHead{border-bottom:1px solid #b1b1b1;line-height:50px;font-weight:700}
+.total .contentbar .myQuestion .questionHead ._right a{font-size:14px;font-weight:700;color:#000}
+.total .contentbar .myQuestion .questionHead ._right a:first-child{margin-right:46px;position:relative}
+.total .contentbar .myQuestion .questionHead ._right a:first-child:after{display:block;content:"";width:2px;height:100%;background:#000;position:absolute;right:-22px;top:0}
+.total .contentbar .myQuestion .details .detail{padding:20px 0 20px 20px;border-bottom:1px solid #b1b1b1}
+.total .contentbar .myQuestion .details .detail:last-child{border:0}
+.total .contentbar .myQuestion .details .detail .ask{position:relative;font-size:16px;font-weight:700}
+.total .contentbar .myQuestion .details .detail .ask:before{position:absolute;left:-20px;top:0;display:block;content:"";height:100%;width:2px;background:#5da9c0}
+.total .contentbar .myQuestion .details .detail .answer{font-size:14px;color:#989898;line-height:50px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.total .contentbar .myQuestion .details .detail .popandtime{font-size:12px;color:#a1a1a1}
+.total .contentbar .myQuestion .details .detail .popandtime span{color:#f9b000}
+.total .contentbar .database_submission{margin-bottom:20px;font-size:0}
+.total .contentbar .database_submission .samestyle{width:455px;padding:0 20px;box-sizing:border-box;border:1px solid #b1b1b1}
+.total .contentbar .database_submission .samestyle h4{font-size:16px;line-height:50px;border-bottom:1px solid #b1b1b1;font-weight:700}
+.total .contentbar .database_submission .samestyle ul{padding:17px 0 17px 17px}
+.total .contentbar .database_submission .samestyle ul li{position:relative;font-size:14px;font-weight:700;line-height:30px}
+.total .contentbar .database_submission .samestyle ul li:before{display:block;content:"";height:4px;width:4px;background:#5da9c0;position:absolute;left:-17px;top:15px}

@@ -1,0 +1,12 @@
+body{background:#fbfbfb}
+.examResult{margin-bottom:20px}
+.examResult .allHeader{height:52px;line-height:52px}
+.examResult .allHeader a{font-size:14px}
+.examResult .content{background:#fff;padding-top:24px;padding-bottom:190px}
+.examResult .content h3{margin:0 15px;line-height:46px;text-align:center;font-size:24px;border-bottom:1px solid #ccc}
+.examResult .content .result{margin-left:290px;margin-top:108px}
+.examResult .content .result .pic{float:left}
+.examResult .content .result .score{height:173px;float:left;line-height:173px}
+.examResult .content .result .score h4{display:inline-block;font-size:24px;color:#e54128}
+.examResult .content .result .score p{display:inline-block;margin-left:38px;font-size:20px}
+.examResult .content .result .score p span{color:#e54128}

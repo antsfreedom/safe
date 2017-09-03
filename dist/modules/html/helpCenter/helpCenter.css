@@ -1,0 +1,19 @@
+.helpCenter{background-color:#fbfbfb}
+.helpCenter .helpContent{padding:0 0 30px}
+.helpCenter .helpContent .title ul{overflow:hidden}
+.helpCenter .helpContent .title ul li{float:left;line-height:51px}
+.helpCenter .helpContent .title ul li a{font-size:12px;color:#c9c9c9}
+.helpCenter .helpContent .title ul li i{font-size:7px;color:#c9c9c9}
+.helpCenter .helpContent .content{display:flex}
+.helpCenter .helpContent .content .about{flex:0 0 250px;margin-right:18px}
+.helpCenter .helpContent .content .about li{line-height:50px;background-color:#fe6700}
+.helpCenter .helpContent .content .about li:hover a i{transform:rotate(90deg)}
+.helpCenter .helpContent .content .about li a{display:block;color:#fff;padding:0 20px}
+.helpCenter .helpContent .content .about li .small{display:none}
+.helpCenter .helpContent .content .about li .small li{text-indent:20px}
+.helpCenter .helpContent .content .about li .small li:hover{color:#fe6700;background-color:#fff}
+.helpCenter .helpContent .content .about li:hover .small{display:block}
+.helpCenter .helpContent .content .present{flex:1;padding:0 15px 0 20px;min-height:800px;background-color:#fff}
+.helpCenter .helpContent .content .present p{line-height:55px;color:#fe6700;border-bottom:1px solid #eee}
+.helpCenter .helpContent .content .present .details{padding:40px 20px 40px 25px;line-height:30px}
+.helpCenter .helpContent .content .present .details ul{margin-bottom:10px}

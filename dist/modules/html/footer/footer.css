@@ -1,0 +1,22 @@
+.footer{padding-top:30px;border-top:5px solid #f9b000;background-color:#333}
+.footer .footer_detail dl{display:inline-block;vertical-align:top;padding-left:30px;box-sizing:border-box;height:168px;border-left:1px solid #6a6a6a}
+.footer .footer_detail dl dt{margin-bottom:20px;color:#848484;font-size:16px}
+.footer .footer_detail dl dt.hot_t{margin-bottom:0}
+.footer .footer_detail dl dd{line-height:27px;color:#6a6a6a;font-size:14px}
+.footer .footer_detail dl dd.hot_d{font-size:16px}
+.footer .footer_detail dl dd i.icon{display:inline-block;width:33%;font-size:40px;text-align:center}
+.footer .footer_detail dl dd span.text{display:inline-block;width:33%;text-align:center}
+.footer .footer_detail dl dd.hot_link{padding-top:16px}
+.footer .footer_detail dl dd.hot_link i.ilink{display:inline-block;vertical-align:top;font-size:40px;margin-right:14px}
+.footer .footer_detail dl dd.hot_link span{display:inline-block;vertical-align:top}
+.footer .footer_detail dl:first-child{border:0}
+.footer .footer_detail dl.about{width:240px}
+.footer .footer_detail dl.help{width:270px}
+.footer .footer_detail dl.wacth{width:360px}
+.footer .footer_detail dl.hot{width:300px}
+.footer .footer_nav{margin:50px 0}
+.footer .footer_nav ul{margin:0 auto;width:460px}
+.footer .footer_nav ul li{display:inline-block}
+.footer .footer_nav ul li a{padding:0 16px}
+.footer .footer_address{width:653px;margin:0 auto;text-align:center}
+.footer .footer_address p{line-height:25px}

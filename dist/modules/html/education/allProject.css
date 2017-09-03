@@ -1,0 +1,21 @@
+body{background:#fbfbfb}
+.allProject{margin-bottom:18px}
+.allProject .allHeader{height:52px;line-height:52px}
+.allProject .allHeader a{font-size:14px}
+.allProject .content{background:#fff}
+.allProject .content .public{padding-left:17px;padding-right:13px;height:54px;line-height:54px;border-bottom:1px solid #ccc}
+.allProject .content .public span{font-size:18px}
+.allProject .content .public a{float:right;font-size:14px}
+.allProject .content .video-list{margin-top:30px;margin-left:14px;margin-right:-30px}
+.allProject .content .video-list li{position:relative;float:left;margin-right:30px;margin-bottom:30px;width:210px;transition:all 1s}
+.allProject .content .video-list li img{width:100%}
+.allProject .content .video-list li a{display:block;margin-left:10px;font-size:14px}
+.allProject .content .video-list li span{position:absolute;left:14px;bottom:50px;display:block;width:30px;height:30px}
+.allProject .content .video-list li span img{width:100%}
+.allProject .content .pages{position:relative;margin-top:46px;padding-bottom:100px}
+.allProject .content .pages ul{position:absolute;right:20px;top:0}
+.allProject .content .pages ul li{float:left}
+.allProject .content .pages ul li a{display:block;width:40px;height:40px;line-height:40px;text-align:center;border:1px solid #eee}
+.allProject .content .pages ul li a:hover{background:#5dabc0;color:#fff}
+.allProject .content .pages ul li:last-child{width:90px}
+.allProject .content .pages ul li:last-child a{width:90%}

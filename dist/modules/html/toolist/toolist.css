@@ -1,0 +1,16 @@
+.toolist .toolist_content{padding-top:20px;background-color:#fbfbfb}
+.toolist .toolist_content .content_bg{padding:50px 30px 100px;background-color:#fff}
+.toolist .toolist_content .content_bg .content_title .title_pic{margin-right:30px;width:440px;height:185px;overflow:hidden}
+.toolist .toolist_content .content_bg .content_title .title_pic img{height:100%;width:100%}
+.toolist .toolist_content .content_bg .content_title .title_detail{margin-left:440px}
+.toolist .toolist_content .content_bg .content_title .title_detail dt{font-size:30px;font-weight:500}
+.toolist .toolist_content .content_bg .content_title .title_detail dd.detail_time{margin-right:20px;color:#c6c6c6;line-height:34px}
+.toolist .toolist_content .content_bg .content_title .title_detail dd.detail_txt{line-height:28px}
+.toolist .toolist_content .content_bg .content_detail ul li dl dt{display:inline-block;padding:12px 20px;margin:40px 0;color:#fff}
+.toolist .toolist_content .content_bg .content_detail ul li dl dt.dt_bgy{background-color:#f9b000}
+.toolist .toolist_content .content_bg .content_detail ul li dl dt.dt_bgb{background-color:#5dabc0}
+.toolist .toolist_content .content_bg .content_detail ul li dl dt.dt_bgg{background-color:#89bb29}
+.toolist .toolist_content .content_bg .content_detail ul li dl dd.dd_txt{margin-bottom:25px}
+.toolist .toolist_content .content_bg .content_detail ul li dl dd.dd_sub{margin-left:57px}
+.toolist .toolist_content .content_bg .content_detail ul li dl dd input{margin-left:16px;padding-left:10px;box-sizing:border-box;width:275px;height:40px;border:1px solid #eee;outline:0}
+.toolist .toolist_content .content_bg .content_detail ul li dl dd span.name{margin-left:28px}

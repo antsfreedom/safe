@@ -1,0 +1,19 @@
+.tool{background-color:#fbfbfb}
+.tool .swiper-container{width:100%;height:350px}
+.tool .tool_content{margin-top:40px}
+.tool .tool_content .content_titl{border-bottom:2px solid #eee}
+.tool .tool_content .content_titl p{margin-bottom:15px;margin-left:30px}
+.tool .tool_content .content_titl ul li{display:inline-block;margin-top:15px;margin-right:50px}
+.tool .tool_content .content_titl ul li:last-child{margin-right:170px}
+.tool .tool_content .content_titl ul li .active{position:relative;color:#fe6700}
+.tool .tool_content .content_titl ul li .active:after{position:absolute;bottom:-2px;left:0;height:0;width:100%;content:'';border:2px solid #fe6700}
+.tool .tool_content .content_titl ul li:hover a{position:relative;color:#fe6700}
+.tool .tool_content .content_titl ul li:hover a:after{position:absolute;bottom:-2px;left:0;height:0;width:100%;content:'';border:2px solid #fe6700}
+.tool .tool_content .content_detail .product_detail{margin-right:-13px;padding:0 20px 120px;box-sizing:border-box}
+.tool .tool_content .content_detail .product_detail .detail_content{margin-right:13px;margin-top:20px;width:32%;overflow:hidden;border:1px solid #eee}
+.tool .tool_content .content_detail .product_detail .detail_content .content_txt{padding:0 30px;box-sizing:border-box;width:100%}
+.tool .tool_content .content_detail .product_detail .detail_content .content_txt h2{padding:20px 0;font-size:16px;font-weight:700}
+.tool .tool_content .content_detail .product_detail .detail_content .content_txt img{width:100%;box-sizing:border-box}
+.tool .tool_content .content_detail .product_detail .detail_content .content_txt ul{margin:30px 0}
+.tool .tool_content .content_detail .product_detail .detail_content .content_txt ul li{display:inline-block;padding:12px 20px;box-sizing:border-box;margin-right:4px}
+.tool .tool_content .content_detail .product_detail .detail_content .content_txt ul li a{color:#fff}

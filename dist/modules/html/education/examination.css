@@ -1,0 +1,8 @@
+body{background:#fbfbfb}
+.examination{margin-bottom:20px}
+.examination .examHeader{height:52px;line-height:52px}
+.examination .examHeader a{font-size:14px}
+.examination .content{background:#fff;padding-bottom:144px}
+.examination .content h3{font-size:18px;font-weight:600;text-align:center;line-height:92px;border-bottom:1px solid #ccc}
+.examination .content p{padding:40px 300px 50px}
+.examination .content a{display:block;width:160px;height:50px;color:#fff;margin:0 auto;line-height:50px;text-align:center;background:#8dc4d3}

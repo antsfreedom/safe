@@ -1,0 +1,43 @@
+body{background:#fbfbfb}
+.education .public{padding-left:17px;padding-right:13px;height:54px;line-height:54px;border-bottom:1px solid #ccc}
+.education .public span{font-size:18px}
+.education .public a{float:right;font-size:14px}
+.education .project{background:#fff;margin-top:23px}
+.education .project .chatWhite{width:220px}
+.education .project .chatWhite img{width:100%}
+.education .project .project-list{margin-top:18px;margin-left:250px}
+.education .project .project-list ul{margin-right:-30px;font-size:0}
+.education .project .project-list ul li{display:inline-block;margin-right:30px;margin-bottom:44px;width:210px;transition:all 1s}
+.education .project .project-list ul li:hover{border:1px solid #ccc;background:#fff;transform:scale(1.2)}
+.education .project .project-list ul li a{position:relative;display:block}
+.education .project .project-list ul li a img{width:100%;margin-top:10px;padding-left:10px;padding-right:10px;box-sizing:border-box}
+.education .project .project-list ul li a .play{position:absolute;left:10px;bottom:0;width:40px;height:40px}
+.education .project .project-list ul li a .play img{width:100%}
+.education .project .project-list ul li a span{display:block;margin-bottom:30px;margin-left:10px;font-size:14px}
+.education .Anime{margin-top:20px;background:#fff}
+.education .Anime .pic{float:left;width:460px}
+.education .Anime .pic img{width:100%}
+.education .Anime .anime-list{margin-left:480px;margin-top:28px}
+.education .Anime .anime-list ul{margin-right:-30px}
+.education .Anime .anime-list ul li{display:inline-block;margin-right:30px;margin-bottom:44px;width:210px;transition:all 1s}
+.education .Anime .anime-list ul li:hover{border:1px solid #ccc;background:#fff;transform:scale(1.2)}
+.education .Anime .anime-list ul li a{position:relative;display:block}
+.education .Anime .anime-list ul li a img{width:100%;margin-top:10px;padding-left:10px;padding-right:10px;box-sizing:border-box}
+.education .Anime .anime-list ul li a span{display:block;margin-bottom:30px;margin-left:10px;font-size:14px}
+.education .practing{height:400px;margin-top:20px;margin-bottom:39px}
+.education .practing .public{margin-bottom:14px;padding:0 4px 0 18px;line-height:52px;border-bottom:1px solid #ccc}
+.education .practing .public span{font-size:18px}
+.education .practing .public a{float:right;font-size:14px}
+.education .practing .safety{width:455px;height:100%;background:#fff}
+.education .practing .safety ul{margin:13px auto 33px 34px}
+.education .practing .safety ul li{position:relative;margin-bottom:18px}
+.education .practing .safety ul li:after{position:absolute;left:-15px;top:10px;display:table;content:"";width:4px;height:4px;background:#8dc4d3}
+.education .practing .safety ul li a{font-size:14px}
+.education .practing .training{margin-left:18px;width:455px;background:#fff;height:100%}
+.education .practing .training ul{margin:24px auto 36px 35px}
+.education .practing .training ul li{position:relative;margin-bottom:18px}
+.education .practing .training ul li:after{position:absolute;left:-15px;top:10px;display:table;content:"";width:4px;height:4px;background:#8dc4d3}
+.education .practing .training ul li a{font-size:14px}
+.education .practing .exam{width:250px;height:100%;background:#fff}
+.education .practing .exam a{display:block;padding:15px 0 17px 19px;font-weight:600;font-size:18px;border-bottom:1px solid #ccc}
+.education .practing .exam img{display:block;width:214px;height:271px;margin:10px auto}

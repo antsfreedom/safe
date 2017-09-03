@@ -1,0 +1,27 @@
+.information{background-color:#fbfbfb;overflow:hidden}
+.information .information-content{display:flex;margin-top:23px;padding:0 0 30px}
+.information .information-content .article{flex:1;padding:0 15px 85px;margin-right:20px;min-height:800px;background-color:#fff}
+.information .information-content .article .article-titles{padding:0 20px;line-height:50px;border-bottom:3px solid #eee}
+.information .information-content .article .article-titles .spa1{font-size:23px;margin-right:12px;font-weight:700}
+.information .information-content .article .article-titles .spa2{margin:0 5px;color:#5dabc0}
+.information .information-content .article .article-content{padding:20px 0 30px;display:flex;border-bottom:1px solid #eee}
+.information .information-content .article .article-content .pic{flex:0 0 220px;margin-right:18px}
+.information .information-content .article .article-content .pic img{width:100%}
+.information .information-content .article .article-content .pic-content{flex:1}
+.information .information-content .article .article-content .pic-content h1 a{font-size:15px;color:#5dabc0}
+.information .information-content .article .article-content .pic-content span{margin-right:17px;line-height:30px;font-size:9px;color:#bcbbbb}
+.information .information-content .article .article-content .pic-content .end span{margin-right:7px;font-size:12px}
+.information .information-content .article .article-content .pic-content .end span i{font-size:13px}
+.information .information-content .article .article-content .pic-content .end .blue{color:#5dabc0}
+.information .information-content .article .pages{position:relative;margin-top:47px}
+.information .information-content .article .pages ul{position:absolute;right:20px;top:0;overflow:hidden}
+.information .information-content .article .pages ul li{float:left}
+.information .information-content .article .pages ul li a{display:block;width:40px;height:40px;line-height:40px;text-align:center;border:1px solid #eee}
+.information .information-content .article .pages ul li:last-child{width:90px}
+.information .information-content .article .pages ul li:last-child a{width:90%}
+.information .information-content .aside{flex:0 0 250px}
+.information .information-content .aside .aside-list{margin-bottom:16px;background-color:#fff}
+.information .information-content .aside .aside-list p{padding:0 19px;line-height:53px;font-size:18px;font-weight:700;border-bottom:1px solid #eee}
+.information .information-content .aside .aside-list li a{position:relative;display:block;padding:15px 20px}
+.information .information-content .aside .aside-list li a span{margin-left:10px}
+.information .information-content .aside .aside-list li a:before{position:absolute;left:20px;top:23px;display:block;height:4px;width:4px;content:" ";background-color:#8dc4d3}

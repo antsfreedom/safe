@@ -1,0 +1,22 @@
+#header{background-color:#fbfbfb;border-bottom:2px solid #fe6700}
+#header .header_link{padding:14px 0;border-bottom:1px solid #f4f4f4;font-size:12px;color:#b1b1b1}
+#header .header_link .link_register ul li{position:relative;display:inline-block;vertical-align:top;position:relative}
+#header .header_link .link_register ul li:after{position:absolute;top:3px;right:0;display:block;height:12px;content:'';border:1px solid #b1b1b1}
+#header .header_link .link_register ul li a{display:inline-block;padding:0 20px;color:#b1b1b1}
+#header .header_link .link_register ul li:last-child:after{display:none}
+#header .header_seacher{padding:32px 0;font-size:16px}
+#header .header_seacher .seacher_logo{width:202px;height:53px}
+#header .header_seacher .seacher_logo img{height:100%;width:100%}
+#header .header_seacher .search_inp{margin-left:193px;padding:2px;background:#fe6700}
+#header .header_seacher .search_inp span{padding:16.5px;font-weight:600;background-color:#efefef}
+#header .header_seacher .search_inp span i{margin-left:7px}
+#header .header_seacher .search_inp input{padding:15px;margin-left:-5px;width:387px;border:0;outline:0}
+#header .header_seacher .search_inp .iconlef{padding:0 16px;box-sizing:border-box;font-size:23px;color:#fff}
+#header .header_seacher .search_icon pre{display:inline-block;height:53px;width:53px;line-height:27px}
+#header .header_seacher .search_icon pre i{margin-left:13px;font-size:24px}
+#header .header_nav ul{margin-left:-16px}
+#header .header_nav ul li{display:inline-block;font-size:16px;position:relative}
+#header .header_nav ul li:after{position:absolute;top:20px;right:-2px;display:block;height:18px;content:'';border:1px solid #f4f4f4}
+#header .header_nav ul li a{display:inline-block;padding:16px 50px}
+#header .header_nav ul li a:hover{background-color:#fe6700;color:#fff}
+#header .header_nav ul li:last-child:after{display:none}

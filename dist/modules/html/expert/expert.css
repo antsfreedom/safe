@@ -1,0 +1,43 @@
+.expert{min-height:800px;padding-bottom:30px;background-color:#fbfbfb}
+.expert .member-honor{display:flex;padding:38px 34px 28px;background-color:#fff}
+.expert .member{flex:0 0 475px;border-right:1px solid #eee}
+.expert .member .pic{width:205px;height:205px;margin-right:40px}
+.expert .member .pic img{width:100%}
+.expert .member .name h1{margin-bottom:22px;font-size:20px;font-weight:700}
+.expert .member .name p{margin-bottom:30px}
+.expert .member .name span{display:block;line-height:25px;font-size:14px;color:#7c7c7c}
+.expert .honor{flex:1}
+.expert .honor p{color:#63b12a;position:relative;margin-left:31px;padding:34px 0 22px 10px}
+.expert .honor p:before{display:block;position:absolute;left:0;top:34px;content:" ";height:17px;width:3px;background-color:#63b12a}
+.expert .honor .statistics{overflow:hidden}
+.expert .honor .statistics li{float:left;width:178px;border-right:1px dashed #eee}
+.expert .honor .statistics li span{display:block;text-align:center}
+.expert .honor .statistics li .num{margin-top:5px;color:#ffaa4d}
+.expert .honor .statistics li:last-child{border-right:0}
+.expert .honor .question{padding:40px 34px 16px 31px;overflow:hidden}
+.expert .honor .question .ask{display:inline-block;float:left;margin-right:14px;padding:15px 30px;color:#fff;background-color:#88c932}
+.expert .honor .question textarea{float:left;height:65px;width:76%}
+.expert .honor .submit{float:right;padding-right:34px}
+.expert .honor .submit span{display:inline-block}
+.expert .honor .submit .spa1{margin-right:15px;line-height:35px}
+.expert .honor .submit .spa1 .colors{color:#ffa949}
+.expert .honor .submit .spa2{padding:10px 20px;background-color:#5bacbd}
+.expert .honor .submit .spa2 a{color:#fff}
+.expert .close-answer{margin-top:23px;padding-bottom:70px;background:#fff}
+.expert .close-answer .center .close{font-size:23px;font-weight:700}
+.expert .close-answer .center .close i{margin-right:10px;font-size:23px;color:#dfdfdf}
+.expert .close-answer .center ul{margin-left:18px;margin-right:22px}
+.expert .close-answer .center ul li{padding-top:20px;padding-bottom:18px;border-bottom:1px dashed #ccc}
+.expert .close-answer .center ul li:last-child{border-bottom:0}
+.expert .close-answer .center ul li h2{position:relative;font-size:16px;padding-left:16px}
+.expert .close-answer .center ul li h2:before{position:absolute;content:"";display:table;width:3px;height:20px;left:0;background:#5dabc0}
+.expert .close-answer .center ul li p{margin:19px 0 17px;font-size:14px}
+.expert .close-answer .center ul li .desc{font-size:12px}
+.expert .close-answer .center ul li .desc span{color:#fe7b10;padding-right:2px}
+.expert .close-answer .center ul li .desc span:last-child{float:right;color:#000}
+.expert .close-answer .pages{position:relative;margin-top:47px;margin-bottom:30px}
+.expert .close-answer .pages ul{position:absolute;right:20px;top:0;overflow:hidden}
+.expert .close-answer .pages ul li{float:left}
+.expert .close-answer .pages ul li a{display:block;width:40px;height:40px;line-height:40px;text-align:center;border:1px solid #eee}
+.expert .close-answer .pages ul li:last-child{width:90px}
+.expert .close-answer .pages ul li:last-child a{width:90%}

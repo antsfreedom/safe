@@ -1,0 +1,22 @@
+body{background:#fbfbfb}
+.safeProject{margin-bottom:18px}
+.safeProject .safeHeader{height:52px;line-height:52px}
+.safeProject .safeHeader a{font-size:14px}
+.safeProject .content .questionBank{width:930px;background:#fff}
+.safeProject .content .questionBank h2{padding-left:20px;margin-right:420px;line-height:50px;font-size:18px;border-bottom:1px solid #ccc}
+.safeProject .content .questionBank .ques-list{margin:24px auto 0 34px}
+.safeProject .content .questionBank .ques-list li{position:relative;margin-bottom:20px;padding-right:20px}
+.safeProject .content .questionBank .ques-list li:after{position:absolute;left:-20px;top:10px;content:"";display:table;width:4px;height:4px;background:#8dc4d3}
+.safeProject .content .questionBank .ques-list li span{float:right}
+.safeProject .content .questionBank .pages{position:relative;margin-top:46px;padding-bottom:100px}
+.safeProject .content .questionBank .pages ul{position:absolute;right:20px;top:0}
+.safeProject .content .questionBank .pages ul li{float:left}
+.safeProject .content .questionBank .pages ul li a{display:block;width:40px;height:40px;line-height:40px;text-align:center;border:1px solid #eee}
+.safeProject .content .questionBank .pages ul li a:hover{background:#5dabc0;color:#fff}
+.safeProject .content .questionBank .pages ul li:last-child{width:90px}
+.safeProject .content .questionBank .pages ul li:last-child a{width:90%}
+.safeProject .content .hotBank{width:250px;background:#fff}
+.safeProject .content .hotBank h2{padding:16px 0 16px 20px;font-size:18px;border-bottom:1px solid #ccc}
+.safeProject .content .hotBank ul{margin-top:24px;margin-left:32px}
+.safeProject .content .hotBank ul li{position:relative;margin-bottom:19px}
+.safeProject .content .hotBank ul li:after{position:absolute;left:-15px;top:10px;content:"";display:table;width:4px;height:4px;background:#8dc4d3}

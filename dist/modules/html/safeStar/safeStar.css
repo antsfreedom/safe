@@ -1,0 +1,33 @@
+.safeStar{background-color:#fbfbfb}
+.safeStar .safeStar_list{padding:16px 0}
+.safeStar .safeStar_list span{margin:0 10px}
+.safeStar .safeStar_introduction{background-color:#fff}
+.safeStar .safeStar_introduction dt{padding:18px;box-sizing:border-box;font-weight:700;border-bottom:1px solid #fbfbfb}
+.safeStar .safeStar_introduction dt.corporate_t{padding:16px 0 6px;border:0;text-align:center}
+.safeStar .safeStar_introduction .introduction_detail{margin:20px 0 0 30px;padding-bottom:37px;font-size:12px}
+.safeStar .safeStar_introduction .introduction_detail .detail_pic{margin-right:30px;width:425px;height:285px}
+.safeStar .safeStar_introduction .introduction_detail .detail_pic img{height:100%;width:100%}
+.safeStar .safeStar_introduction .introduction_detail .detail_txt{margin-right:53px;width:422px;line-height:22px}
+.safeStar .safeStar_introduction .introduction_detail .detail_txt h2{padding:16px 0 14px;box-sizing:border-box}
+.safeStar .safeStar_introduction .introduction_detail .detail_txt h2.txt_culpro{padding-top:0;padding-bottom:10px}
+.safeStar .safeStar_introduction .introduction_detail .detail_txt .txt_culture{margin-top:50px;padding-right:43px;box-sizing:border-box;width:236px;border-right:1px solid #f9f9f9}
+.safeStar .safeStar_introduction .introduction_detail .detail_txt .txt_product{margin-top:50px;margin-left:33px;width:95px}
+.safeStar .safeStar_introduction .introduction_detail .detail_corporate{margin-top:30px;width:235px}
+.safeStar .safeStar_introduction .introduction_detail .detail_corporate .corporate_detail{margin:0 auto;width:124px}
+.safeStar .safeStar_introduction .introduction_detail .detail_corporate .corporate_detail dt{text-align:center}
+.safeStar .safeStar_introduction .introduction_detail .detail_corporate .corporate_detail dd{line-height:25px}
+.safeStar .safeStar_parentlist{margin-top:25px}
+.safeStar .safeStar_parentlist .parentlist_title{padding:15px;background-color:#fff;box-sizing:border-box;border-bottom:1px solid #eee}
+.safeStar .safeStar_parentlist .parentlist_title p{font-size:16px;font-weight:700}
+.safeStar .safeStar_parentlist .safeStar_list{background-color:#fff;padding:0 28px;box-sizing:border-box}
+.safeStar .safeStar_parentlist .safeStar_list .list_title{position:relative;margin-bottom:30px;height:56px;line-height:56px;font-size:16px;border-bottom:1px solid #eee}
+.safeStar .safeStar_parentlist .safeStar_list .list_title span{color:#b6b6b6}
+.safeStar .safeStar_parentlist .safeStar_list .list_title:after{position:relative;bottom:0;left:10px;height:0;width:0;border-style:solid;border-width:10px;border-color:#eee #fff #fff}
+.safeStar .safeStar_parentlist .safeStar_list .list_detail{padding-bottom:30px}
+.safeStar .safeStar_parentlist .safeStar_list .list_detail .detail_type p{margin-right:20px;height:40px;line-height:40px}
+.safeStar .safeStar_parentlist .safeStar_list .list_detail .detail_department{margin-right:60px}
+.safeStar .safeStar_parentlist .safeStar_list .list_detail .detail_department p{padding:8px 16px;color:#fff;background-color:#5dabc0}
+.safeStar .safeStar_parentlist .safeStar_list .list_detail .detail_pic{margin-right:-14px}
+.safeStar .safeStar_parentlist .safeStar_list .list_detail .detail_pic .pic_fath .pic_attr{margin-right:14px;height:177px;width:215px}
+.safeStar .safeStar_parentlist .safeStar_list .list_detail .detail_pic .pic_fath .pic_attr img{height:150px;width:215px}
+.safeStar .safeStar_parentlist .safeStar_list .list_detail .detail_pic .pic_fath .pic_attr p{text-align:center}
